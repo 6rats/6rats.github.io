@@ -18,3 +18,7 @@ I'm a Software Engineer
 
 # Education
 * Apr 2004 - Mar 2008 Rikkyo University(Mathematics)
+
+# Links
+gist - https://gist.github.com/6rats
+twitter - https://twitter.com/6rats
