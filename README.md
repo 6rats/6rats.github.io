@@ -20,5 +20,6 @@ I'm a Software Engineer
 * Apr 2004 - Mar 2008 Rikkyo University(Mathematics)
 
 # Links
-* gist - https://gist.github.com/6rats
-* twitter - https://twitter.com/6rats
+* <a href="https://github.com/6rats/til">til</a>
+* <a href="https://gist.github.com/6rats">gist</a>
+* <a href="https://twitter.com/6rats">Twitter</a>
