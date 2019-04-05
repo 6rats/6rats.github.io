@@ -14,8 +14,8 @@ I'm a Software Engineer
 * Mar 2017 - Present VANISH STANDARD
 * Oct 2015 - Present GoGoLabs,Inc
   * Android
-   * https://play.google.com/store/apps/details?id=jp.gogolabs.gogogs
-   * https://play.google.com/store/apps/details?id=jp.gogolabs.gogoev
+   ** https://play.google.com/store/apps/details?id=jp.gogolabs.gogogs
+   ** https://play.google.com/store/apps/details?id=jp.gogolabs.gogoev
   * iOS
    * https://itunes.apple.com/jp/app/%E3%82%AC%E3%82%BD%E3%83%AA%E3%83%B3%E4%BE%A1%E6%A0%BC%E6%AF%94%E8%BC%83%E3%82%A2%E3%83%97%E3%83%AA-gogo-gs/id1132429634?mt=8
    * https://itunes.apple.com/jp/app/ev%E5%85%85%E9%9B%BB%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA-gogoev/id1211584016?mt=8
