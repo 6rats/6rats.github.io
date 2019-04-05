@@ -26,8 +26,8 @@ I'm a Software Engineer
 * Mar 2011 - Sep 2015 VASILY,Inc
   * Ruby on Rails
   * Android(Java)
-    BestApp In GooglePlay 2014
-    https://play.google.com/store/apps/details?id=jp.vasily.iqon&hl=ja
+    * BestApp In GooglePlay 2014
+    * https://play.google.com/store/apps/details?id=jp.vasily.iqon&hl=ja
   * AWS
 * Apr 2008 - Feb 2011 Yahoo!JAPAN 
 PHP + MySQL
