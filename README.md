@@ -14,7 +14,13 @@ I'm a Software Engineer
 * Mar 2017 - Present VANISH STANDARD
 * Oct 2015 - Present GoGoLabs,Inc
 * Mar 2011 - Sep 2015 VASILY,Inc
+** Ruby on Rails
+** Android(Java)
+https://play.google.com/store/apps/details?id=jp.vasily.iqon&hl=ja
+BestApp In GooglePlay 2014
+** AWS
 * Apr 2008 - Feb 2011 Yahoo!JAPAN 
+PHP + MySQL
 
 # Education
 * Apr 2004 - Mar 2008 Rikkyo University(Mathematics)
