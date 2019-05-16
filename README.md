@@ -13,6 +13,8 @@ I'm a Software Engineer
 * Sep 2018 - Present Freelance
 * Mar 2017 - Present VANISH STANDARD
   * iOS(Swift)/Android(Kotlin)
+    * [iOS] Realm,RxSwift,Firebase
+    * [Android] Dagger2,Coroutine,Retrofit,RxKotlin
     * https://www.staff-start.com/
 * Oct 2015 - Present GoGoLabs,Inc
   * Android(Java/Kotlin)
