@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://6rats.github.io/post/first/</loc>
-    <lastmod>2019-05-22T09:32:52+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://6rats.github.io/post/</loc>
     <lastmod>2019-05-22T09:32:52+09:00</lastmod>
     <priority>0</priority>
@@ -17,6 +12,11 @@
     <loc>https://6rats.github.io/</loc>
     <lastmod>2019-05-22T09:32:52+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/post/%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E5%86%8D%E9%96%8B%E3%81%97%E3%81%BE%E3%81%99/</loc>
+    <lastmod>2019-05-22T09:32:52+09:00</lastmod>
   </url>
   
   <url>
