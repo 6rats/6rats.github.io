@@ -1,5 +1,79 @@
+
+
+
+
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="xsl">
+    <xsl:output method="html" doctype-system="about:legacy-compat" />
+    <xsl:template match="/rss">
+      <html lang="ja-jp">
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>RSS | Software Engineerのノート</title>
+          <link rel="stylesheet" href="https://6rats.github.io/css/base.min.21688b64210142c045c9a1d930a48fc517f428060c78a3a012d71f971874c5c3.css" integrity="sha256-IWiLZCEBQsBFyaHZMKSPxRf0KAYMeKOgEtcflxh0xcM=" />
+        </head>
+        <body>
+          <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item Banner-item--title">
+        <a class="Banner-link u-clickable" href="https://6rats.github.io">Software Engineerのノート</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://6rats.github.io/about/">About</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://6rats.github.io/post/">Posts</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://6rats.github.io/tags/">Tags</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://6rats.github.io/categories/">Categories</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="https://6rats.github.io/index.xml">RSS</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+          <main>
+            <div class="u-wrapper">
+              <div class="u-padding">
+                <h2 class="Heading-title">
+                  
+                  <a class="Heading-link u-clickable" href="https://6rats.github.io/index.xml" rel="bookmark">RSS</a>
+                  
+                </h2>
+                
+                <p>
+                  To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader.
+                </p>
+                
+              </div>
+            </div>
+          </main>
+          
+<footer class="Footer">
+  <div class="u-wrapper">
+    <div class="u-padding">
+      Except where otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="license"> Creative Commons Attribution 4.0 International License</a>.
+    </div>
+  </div>
+</footer>
+
+        </body>
+      </html>
+    </xsl:template>
+  </xsl:stylesheet>
   <channel>
     <title>Software Engineerのノート</title>
     <link>https://6rats.github.io/</link>
@@ -7,49 +81,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 22 May 2019 09:32:52 +0900</lastBuildDate>
-    
-	<atom:link href="https://6rats.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://6rats.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ブログ再開</title>
       <link>https://6rats.github.io/post/%E3%83%96%E3%83%AD%E3%82%B0%E5%86%8D%E9%96%8B/</link>
       <pubDate>Wed, 22 May 2019 09:32:52 +0900</pubDate>
-      
       <guid>https://6rats.github.io/post/%E3%83%96%E3%83%AD%E3%82%B0%E5%86%8D%E9%96%8B/</guid>
-      <description> 数ヶ月前、それまで約9年くらい書き続けたブログを辞めました。今回いろいろ考えた結果再開することにしました。
-以前のブログを辞めたきっかけ 普段そんなに使っていないサービスから飛んでくる、ほぼ読まないメール。それらに埋もれる本当に必要な情報を探すときのストレス。
-このストレスを解消するためにメールのフィルタリングなどの方法はあるかと思いますが、手っ取り早い根本解決策としてアカウントの削除があります。 メールアドレスを始めとした個人情報を普段使わないサービスに預けておくのもいい気分はしないですしね。
-過去のメールを見たりして思いつく限りのサービスを片っ端から検討して、必須でないと判断したら削除していきました。
-おかげで不要なメールが来ることはほほぼなくなり、自分にとって読むべきメールだけが来るようになりました。
-アカウント自体を削除したことで、普段使わないのにふと思い出したかのように開いて、数十分経ったあとに「なにやってたんだろ」ってなることもほぼなくなりました。
-また個人情報の流出リスクが少しは軽減できた気もします（あくまで気持ちの問題）
-身軽になり精神的にラクな状態です。
-このラクな状態を追い求めた結果FC2で運営していたブログにまで検討が及んだことがきっかけでした。
-最後の最後まで悩んだ結果クローズすることにしました。
-理由としては内容がほぼ自分のためのコードのスニペット集になっていたので、それらはgistで代用できると思ったことが一番大きかったです。
-ただ、少しでも読んでくれてた方には急に閉じてしまい申し訳ないと思っています。
-なぜ再開 自身の経験や考えを共有することで誰かのヒントになればいいかなと思っています。
-今回のアカウント断捨離のようにコード以外のことを書く場所がやはり欲しかったというのが大きな理由になります。
-読まれるかどうかはさておきインターネットで仕事をする上でこれは大事な態度だと思っていますが、それができなかったここ数ヶ月はやはりなんとなくモヤモヤがありました。
-なので再開に至りました。
-最後に 使っていないサービスのアカウント断捨離はおすすめします、身軽になって大事なことにフォーカスできる環境を作るのに有効かと思います。 現在は本当に多種多様なサービスがありますが、それらのどこに自分の貴重な時間を費やすかをよく検討するいい機会になります。
-ちなみになぜgithub.ioでブログを再開したかというと断捨離の過程で残った数少ないサービスだからです。引き続きお世話になります。
-いろんなサービスで繋がってくれていた方、以前の僕のメモ帳みたいな雑なブログを読んでくれた方。
-急に離れてしまって申し訳ありませんでした。この場を借りてお詫び申し上げます。
-ではまた。
- </description>
+      <description>
+
+&lt;p&gt;数ヶ月前、それまで約9年くらい書き続けたブログを辞めました。今回いろいろ考えた結果再開することにしました。&lt;/p&gt;
+
+&lt;h2 id=&#34;以前のブログを辞めたきっかけ&#34;&gt;以前のブログを辞めたきっかけ&lt;/h2&gt;
+
+&lt;p&gt;普段そんなに使っていないサービスから飛んでくる、ほぼ読まないメール。それらに埋もれる本当に必要な情報を探すときのストレス。&lt;/p&gt;
+
+&lt;p&gt;このストレスを解消するためにメールのフィルタリングなどの方法はあるかと思いますが、手っ取り早い根本解決策としてアカウントの削除があります。
+メールアドレスを始めとした個人情報を普段使わないサービスに預けておくのもいい気分はしないですしね。&lt;/p&gt;
+
+&lt;p&gt;過去のメールを見たりして思いつく限りのサービスを片っ端から検討して、必須でないと判断したら削除していきました。&lt;br /&gt;
+おかげで不要なメールが来ることはほほぼなくなり、自分にとって読むべきメールだけが来るようになりました。&lt;br /&gt;
+アカウント自体を削除したことで、普段使わないのにふと思い出したかのように開いて、数十分経ったあとに「なにやってたんだろ」ってなることもほぼなくなりました。&lt;br /&gt;
+また個人情報の流出リスクが少しは軽減できた気もします（あくまで気持ちの問題）&lt;/p&gt;
+
+&lt;p&gt;身軽になり精神的にラクな状態です。&lt;/p&gt;
+
+&lt;p&gt;このラクな状態を追い求めた結果FC2で運営していたブログにまで検討が及んだことがきっかけでした。&lt;br /&gt;
+最後の最後まで悩んだ結果クローズすることにしました。&lt;br /&gt;
+理由としては内容がほぼ自分のためのコードのスニペット集になっていたので、それらは&lt;a href=&#34;https://gist.github.com/6rats&#34;&gt;gist&lt;/a&gt;で代用できると思ったことが一番大きかったです。&lt;/p&gt;
+
+&lt;p&gt;ただ、少しでも読んでくれてた方には急に閉じてしまい申し訳ないと思っています。&lt;/p&gt;
+
+&lt;h2 id=&#34;なぜ再開&#34;&gt;なぜ再開&lt;/h2&gt;
+
+&lt;p&gt;自身の経験や考えを共有することで誰かのヒントになればいいかなと思っています。&lt;/p&gt;
+
+&lt;p&gt;今回のアカウント断捨離のようにコード以外のことを書く場所がやはり欲しかったというのが大きな理由になります。&lt;/p&gt;
+
+&lt;p&gt;読まれるかどうかはさておきインターネットで仕事をする上でこれは大事な態度だと思っていますが、それができなかったここ数ヶ月はやはりなんとなくモヤモヤがありました。&lt;/p&gt;
+
+&lt;p&gt;なので再開に至りました。&lt;/p&gt;
+
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+
+&lt;p&gt;使っていないサービスのアカウント断捨離はおすすめします、身軽になって大事なことにフォーカスできる環境を作るのに有効かと思います。
+現在は本当に多種多様なサービスがありますが、それらのどこに自分の貴重な時間を費やすかをよく検討するいい機会になります。&lt;/p&gt;
+
+&lt;p&gt;ちなみになぜgithub.ioでブログを再開したかというと断捨離の過程で残った数少ないサービスだからです。引き続きお世話になります。&lt;/p&gt;
+
+&lt;p&gt;いろんなサービスで繋がってくれていた方、以前の僕のメモ帳みたいな雑なブログを読んでくれた方。&lt;br /&gt;
+急に離れてしまって申し訳ありませんでした。この場を借りてお詫び申し上げます。&lt;/p&gt;
+
+&lt;p&gt;ではまた。&lt;/p&gt;
+
+&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&amp;t=takmurataas0c-22&amp;m=amazon&amp;o=9&amp;p=8&amp;l=as1&amp;IS1=1&amp;detail=1&amp;asins=4763131206&amp;linkId=f570da0e5a06a1b8ab2b88784d434cd1&amp;bc1=FFFFFF&amp;lt1=_top&amp;fc1=333333&amp;lc1=0066C0&amp;bg1=FFFFFF&amp;f=ifr&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://6rats.github.io/about/</link>
-      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://6rats.github.io/about/</guid>
-      <description>Hello I&amp;rsquo;m a Software Engineer
-Preferred  Android Application Development(Kotlin or Java) iOS Application Development(Swift) Ruby on Rails Web Application Development Firebase(FirebaseAuth,Firestore,etc) PHP Web Application Development AWS/GCP Application Infrastructure  Worked at  Sep 2018 - Present Freelance Mar 2017 - Present VANISH STANDARD  iOS(Swift)/Android(Kotlin) [iOS] Realm,RxSwift,Firebase [Android] Dagger2,Coroutine,Retrofit,RxKotlin https://www.staff-start.com/  Oct 2015 - Present GoGoLabs,Inc  Android(Java/Kotlin) gogo.gs GoGoEV iOS(Swift) gogo.gs GoGoEV PHP https://gogo.gs/ https://ev.gogo.gs/ AWS  Mar 2011 - Sep 2015 VASILY,Inc  Ruby on Rails Android(Java) BestApp In GooglePlay 2014 iQON AWS  Apr 2008 - Feb 2011 Yahoo!</description>
-    </item>
-    
   </channel>
 </rss>
