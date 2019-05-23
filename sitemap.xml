@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://6rats.github.io/categories/</loc>
+    <lastmod>2019-05-22T09:32:52+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://6rats.github.io/post/</loc>
     <lastmod>2019-05-22T09:32:52+09:00</lastmod>
     <priority>0</priority>
@@ -15,23 +21,37 @@
   </url>
   
   <url>
-    <loc>https://6rats.github.io/post/%E3%83%96%E3%83%AD%E3%82%B0%E5%86%8D%E9%96%8B/</loc>
+    <loc>https://6rats.github.io/tags/</loc>
     <lastmod>2019-05-22T09:32:52+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E6%96%AD%E6%8D%A8%E9%9B%A2/</loc>
+    <lastmod>2019-05-22T09:32:52+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/post/01/</loc>
+    <lastmod>2019-05-22T09:32:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/categories/%E6%96%AD%E6%8D%A8%E9%9B%A2/</loc>
+    <lastmod>2019-05-22T09:32:52+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/%E6%96%AD%E6%8D%A8%E9%9B%A2/</loc>
+    <lastmod>2019-05-22T09:32:52+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://6rats.github.io/about/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
