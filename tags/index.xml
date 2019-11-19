@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on エンジニアのメモ</title>
@@ -6,24 +6,24 @@
     <description>Recent content in Tags on エンジニアのメモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 22 May 2019 09:32:52 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 09:32:52 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>インターネット断捨離</title>
-      <link>https://6rats.github.io/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E6%96%AD%E6%8D%A8%E9%9B%A2/</link>
-      <pubDate>Wed, 22 May 2019 09:32:52 +0900</pubDate>
+      <title>ブログ</title>
+      <link>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Tue, 19 Nov 2019 09:32:52 +0900</pubDate>
       
-      <guid>https://6rats.github.io/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E6%96%AD%E6%8D%A8%E9%9B%A2/</guid>
+      <guid>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>断捨離</title>
       <link>https://6rats.github.io/tags/%E6%96%AD%E6%8D%A8%E9%9B%A2/</link>
-      <pubDate>Wed, 22 May 2019 09:32:52 +0900</pubDate>
+      <pubDate>Tue, 19 Nov 2019 09:32:52 +0900</pubDate>
       
       <guid>https://6rats.github.io/tags/%E6%96%AD%E6%8D%A8%E9%9B%A2/</guid>
       <description></description>

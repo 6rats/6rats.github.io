@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>エンジニアのメモ</title>
@@ -6,39 +6,28 @@
     <description>Recent content on エンジニアのメモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 22 May 2019 09:32:52 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 09:32:52 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>ブログ再開</title>
+      <title>再開</title>
       <link>https://6rats.github.io/post/01/</link>
-      <pubDate>Wed, 22 May 2019 09:32:52 +0900</pubDate>
+      <pubDate>Tue, 19 Nov 2019 09:32:52 +0900</pubDate>
       
       <guid>https://6rats.github.io/post/01/</guid>
-      <description> 数ヶ月前、それまで約9年くらい書き続けたブログを辞めました。今回いろいろ考えた結果再開することにしました。
-以前のブログを辞めたきっかけ 普段そんなに使っていないサービスから飛んでくる、ほぼ読まないメール。それらに埋もれる本当に必要な情報を探すときのストレス。
-このストレスを解消するためにメールのフィルタリングなどの方法はあるかと思いますが、手っ取り早い根本解決策としてアカウントの削除があります。 メールアドレスを始めとした個人情報を普段使わないサービスに預けておくのもいい気分はしないですしね。
-過去のメールを見たりして思いつく限りのサービスを片っ端から検討して、必須でないと判断したら削除していきました。
-おかげで不要なメールが来ることはほほぼなくなり、自分にとって読むべきメールだけが来るようになりました。
-アカウント自体を削除したことで、普段使わないのにふと思い出したかのように開いて、数十分経ったあとに「なにやってたんだろ」ってなることもほぼなくなりました。
-また個人情報の流出リスクが少しは軽減できた気もします（あくまで気持ちの問題）
-身軽になり精神的にラクな状態です。
-このラクな状態を追い求めた結果FC2で運営していたブログにまで検討が及んだことがきっかけでした。
-最後の最後まで悩んだ結果クローズすることにしました。
-理由としては内容がほぼ自分のためのコードのスニペット集になっていたので、それらはgistで代用できると思ったことが一番大きかったです。
-ただ、少しでも読んでくれてた方には急に閉じてしまい申し訳ないと思っています。
-なぜ再開 自身の経験や考えを共有することで誰かのヒントになればいいかなと思っています。
-今回のアカウント断捨離のようにコード以外のことを書く場所がやはり欲しかったというのが大きな理由になります。
-読まれるかどうかはさておきインターネットで仕事をする上でこれは大事な態度だと思っていますが、それができなかったここ数ヶ月はやはりなんとなくモヤモヤがありました。
-なので再開に至りました。
-最後に 使っていないサービスのアカウント断捨離はおすすめします、身軽になって大事なことにフォーカスできる環境を作るのに有効かと思います。 現在は本当に多種多様なサービスがありますが、それらのどこに自分の貴重な時間を費やすかをよく検討するいい機会になります。
-ちなみになぜgithub.ioでブログを再開したかというと断捨離の過程で残った数少ないサービスだからです。引き続きお世話になります。
-いろんなサービスで繋がってくれていた方、以前の僕のメモ帳みたいな雑なブログを読んでくれた方。
+      <description>数ヶ月前、それまで約9年書き続けたブログを閉じました。
+僕にとってのそれまでのブログの役割をgistが取って代わったと感じたからです。
+ブログの内容がほぼコードのスニペット集だったのですが、それらは平行して利用していたgistで代用できると思ったことがきっかけでした。
+gistにもブログにも同じ内容を書いていることに気が付き重複は生産性が高くないと感じ、どちらかを断捨離しようと思った結果ブログの方を捨てる決断をしました。 基本的には未来の自分へのメモですが、ついでに誰かの役に立てればいいなと思っています。
+不特定多数の人をターゲットにしたブログというフォーマットより、コードを書くエンジニアを主なターゲットとしたgistの方がいいと思った事が大きかったです。
+しかしながら、自身の経験、考え、働き方といったコードでは表現できない内容を共有することで誰かのヒントになればいいかなとも思っています。
+Twitterを更新してみたりしましたが、極力プラットフォームのルールにしばられず自由に書ける場を探した結果github pageでブログを再開するという結論にたどり着きました。
+以前の個人的なメモみたいな雑なブログを読んでくれた方。
 急に離れてしまって申し訳ありませんでした。この場を借りてお詫び申し上げます。
-ではまた。
- </description>
+今後はコードのスニペットはgistで、コード以外のことは本ブログで書き残して行きたいと思います。
+ではまた。</description>
     </item>
     
     <item>
@@ -47,11 +36,9 @@
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://6rats.github.io/about/</guid>
-      <description>自己紹介 Android/iOSのネイティブアプリケーションの開発を中心に活動しているフリーランスエンジニアです。
-2008年に新卒でヤフーに入社後、ヤフー時代の先輩達が立ち上げたスタートアップVASILY,Incでエンジニアとして入社、その後ゴーゴーラボ社を経て2018年からフリーランスとして活動を開始しました。
-現在はゴーゴーラボ社、VANISH STANDARD社、NowDo社の3社と仕事をさせて頂いています。
-スタートアップでのスピーディーなプロダクト開発を得意としています。開発する分野は幅広く(iOS/Android/Web)カバーしていますが、デザインはできません。
-得意分野  Androidアプリ開発 (Kotlin or Java)  8年(2011年〜現在)  iOSアプリ開発(Swift)  3年(2016年〜現在)  Ruby on Railsを使ったWebアプリケーション開発  7年(2010年〜現在、途中1年ほどブランクあり)  Firebase(FirebaseAuth,Firestore,etc)  1年(2018年〜現在)  PHP(Laravel or FuelPHP)  10年(2007年〜現在、途中2年ほどブランクあり)  AWS/GCPを使ったインフラ構築と運用  経歴&amp;amp;取引先  2018年9月から現在 フリーランス 2018年10月から現在 NowDo,Inc  エンジニア  2017年3月から現在 VANISH STANDARD  iOS(Swift)/Android(Kotlin) [iOS] Realm,RxSwift,Firebase [Android] Dagger2,Coroutine,Retrofit,RxKotlin https://www.staff-start.com/  2015年10月から現在 GoGoLabs,Inc  Android(Java/Kotlin) gogo.gs GoGoEV iOS(Swift) gogo.gs GoGoEV PHP https://gogo.gs/ https://ev.gogo.gs/ AWS  2011年3月から2015年9月 VASILY,Inc  Ruby on Rails Android(Java) BestApp In GooglePlay 2014 iQON AWS  2008年4月から2011年2月 Yahoo!</description>
+      <description>自己紹介 Android/iOSのネイティブアプリケーションの開発を中心に活動しているエンジニアです。
+2008年に新卒でヤフーに入社後、ヤフー時代の先輩達が立ち上げたVASILY,Inc(現在はZOZO Technologies)に初期のエンジニアとして入社し4年半エンジニアとして開発と運用業務に従事、その後ゴーゴーラボ社での取締役を4年弱務める傍ら副業の業務委託エンジニアとしていくつかのプロジェクトに参加して、2019年11月からVANISH STANDARDのエンジニアとして活動しています。
+得意分野  Androidアプリ開発 (Kotlin or Java)  8年(2011年〜現在) RxKotlin/Dagger2/MVP/MVVM/Firebase  iOSアプリ開発(Swift)  3年(2016年〜現在) RxSwift/Firebase  Ruby on Railsを使ったWebアプリケーション開発  7年(2010年〜現在、途中2年ほどブランクあり)  Firebase(FirebaseAuth,Firestore,etc)  1年(2018年〜現在)  PHPを使ったWebアプリケーション開発  10年(2007年〜現在、途中2年ほどブランクあり) Laravel/FuelPHP/Zend  AWS/GCPを使ったインフラ構築と運用  経歴&amp;amp;取引先  VANISH STANDARD  2019年11月から現在 ソフトウェアエンジニア(正社員) 2017年3月から2019年10月ソフトウェアエンジニア(業務委託)  iOS(Swift)/Android(Kotlin)  [iOS] Realm,RxSwift,Firebase,Fastlane [Android] Dagger2,Coroutine,Retrofit,RxKotlin STAFF START    GoGoLabs,Inc  2019年9月から現在 ソフトウェアエンジニア(業務委託) 2015年10月から2019年8月 ソフトウェアエンジニア(取締役)  Android(Java/Kotlin)  ネイティブアプリの開発を一人で開発と運用をしています gogo.gs GoGoEV  iOS(Swift)  ネイティブアプリの開発を一人で開発と運用をしています gogo.</description>
     </item>
     
   </channel>
