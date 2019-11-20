@@ -1,5 +1,5 @@
-hugoで作成しているブログです
+[hugo](https://gohugo.io)で作成しているブログです
 
 https://6rats.github.io/
 
-Profile → https://6rats.github.io/about/
+[私のプロフィール](https://6rats.github.io/about/)
