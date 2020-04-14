@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on エンジニアのメモ</title>
-    <link>https://6rats.github.io/post/</link>
-    <description>Recent content in Posts on エンジニアのメモ</description>
+    <title>リモートワーク on エンジニアのメモ</title>
+    <link>https://6rats.github.io/tags/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</link>
+    <description>Recent content in リモートワーク on エンジニアのメモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 Nov 2019 09:32:52 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 06:46:34 +0900</lastBuildDate>
     
-	<atom:link href="https://6rats.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://6rats.github.io/tags/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>再開</title>
-      <link>https://6rats.github.io/post/01/</link>
-      <pubDate>Tue, 19 Nov 2019 09:32:52 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/01/</guid>
-      <description>数ヶ月前、それまで約9年書き続けたブログを閉じました。
-僕にとってのそれまでのブログの役割をgistが取って代わったと感じたからです。
-ブログの内容がほぼコードのスニペット集だったのですが、それらは平行して利用していたgistで代用できると思ったことがきっかけでした。
-gistにもブログにも同じ内容を書いていることに気が付き重複は生産性が高くないと感じ、どちらかを断捨離しようと思った結果ブログの方を捨てる決断をしました。 基本的には未来の自分へのメモですが、ついでに誰かの役に立てればいいなと思っています。
-不特定多数の人をターゲットにしたブログというフォーマットより、コードを書くエンジニアを主なターゲットとしたgistの方がいいと思った事が大きかったです。
-しかしながら、自身の経験、考え、働き方といったコードでは表現できない内容を共有することで誰かのヒントになればいいかなとも思っています。
-Twitterを更新してみたりしましたが、極力プラットフォームのルールにしばられず自由に書ける場を探した結果github pageでブログを再開するという結論にたどり着きました。
-以前の個人的なメモみたいな雑なブログを読んでくれた方。
-急に離れてしまって申し訳ありませんでした。この場を借りてお詫び申し上げます。
-今後はコードのスニペットはgistで、コード以外のことは本ブログで書き残して行きたいと思います。
-ではまた。</description>
-    </item>
     
     <item>
       <title>リモートワークで気をつけていること</title>
