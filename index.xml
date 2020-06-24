@@ -6,10 +6,21 @@
     <description>Recent content on エンジニアのメモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 30 Apr 2020 22:55:12 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>日本人の勝算―人口減少×高齢化×資本主義</title>
+      <link>https://6rats.github.io/post/05/</link>
+      <pubDate>Wed, 24 Jun 2020 21:16:04 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/05/</guid>
+      <description>読み途中だけど簡単にめも
+これからの日本の問題  人口は減っていって経済はものすごいスピードでシュリンクしていく 高齢化が加速度的に進むので人が減っていく上に消費が減る(年取るとそんなに消費しない)  解決策 生産性を上げる
+ 企業を統廃合して効率を上げる(今は非生産的な中小企業が多すぎるからまとめて効率化する) 最低賃金を上げる(最低賃金のUPに対応できるように企業は効率を上げて頑張るはず、効率上げられない企業は残念ながら&amp;hellip;) 賃金が上がれば消費も回る 最低賃金の管轄が経済産業省ではなく厚生労働省なのも問題、社会政策としてではなく経済政策とすべき 輸出をするべき(それにはある程度の企業規模が必要なのでなおさら企業は統合を進めて規模を大きくすべき)  </description>
+    </item>
     
     <item>
       <title>子育て関連で買ってよかったもの</title>
@@ -17,10 +28,9 @@
       <pubDate>Thu, 30 Apr 2020 22:55:12 +0900</pubDate>
       
       <guid>https://6rats.github.io/post/04/</guid>
-      <description> ※ 随時更新
+      <description>※ 随時更新
 鼻水吸引機 鼻水垂れ流しは良くないらしい。かといって鼻はかめない。最初凄く怖がるけど慣れれば問題なし。
- くるくるチャイム よく遊ぶ。ボール以外のものを突っ込む
- </description>
+くるくるチャイム よく遊ぶ。ボール以外のものを突っ込む</description>
     </item>
     
     <item>
@@ -29,14 +39,14 @@
       <pubDate>Wed, 15 Apr 2020 06:35:15 +0900</pubDate>
       
       <guid>https://6rats.github.io/post/03/</guid>
-      <description> ※ 随時更新
+      <description>※ 随時更新
 かえってきたへんしんトンネル 保育園でも読んでいたらしい。読み方にちょっとしたコツが必要で楽しめる
- ノラネコぐんだん カレーライス キャラクターの絵がかわいいけど、隅々まできちんと描き込まれてる印象
- ピヨピヨハッピーバースデー 同じく工藤ノリコさんの本、読むと結構聞いてくれる。ハッピーバースデー系は結構子供が好き
- トーマスのベッドタイムストーリー 寝かしつけの時の鉄板になりつつある。だいぶよく聞いてくれる
- ぶたのたね オチがいまいち掴みにくいけど、子供の心は掴んでる模様
- こんとあき 3歳ぐらいになるとちょっと複雑な本も聞いてられるようになってくる
- </description>
+ノラネコぐんだん カレーライス キャラクターの絵がかわいいけど、隅々まできちんと描き込まれてる印象
+ピヨピヨハッピーバースデー 同じく工藤ノリコさんの本、読むと結構聞いてくれる。ハッピーバースデー系は結構子供が好き
+トーマスのベッドタイムストーリー 寝かしつけの時の鉄板になりつつある。だいぶよく聞いてくれる
+ぶたのたね オチがいまいち掴みにくいけど、子供の心は掴んでる模様
+こんとあき 3歳ぐらいになるとちょっと複雑な本も聞いてられるようになってくる
+おおきなおおきな おいも 途中「いもらす」というくだりがあってすごく好き</description>
     </item>
     
     <item>
@@ -45,7 +55,7 @@
       <pubDate>Wed, 15 Apr 2020 06:30:34 +0900</pubDate>
       
       <guid>https://6rats.github.io/post/02/</guid>
-      <description> 途中で職場が変わっているものの、2016年あたりから基本的にリモートで働いているので気をつけていることをメモ
+      <description>途中で職場が変わっているものの、2016年あたりから基本的にリモートで働いているので気をつけていることをメモ
 ※ この先も働く上で気がついたことは追記、更新していく予定ですが基本的には自分へのメモです
 ※ リモート関係ないこともあるかも
 ※ コロナウィルスの影響で同僚がほぼ全員リモートなので一部今の世の中に合ってないこともあるかも
@@ -101,7 +111,7 @@ Twitterを更新してみたりしましたが、極力プラットフォーム�
       <guid>https://6rats.github.io/about/</guid>
       <description>自己紹介 Android/iOSのネイティブアプリケーションの開発を中心に活動しているエンジニアです。
 2008年に新卒でヤフーに入社後、ヤフー時代の先輩達が立ち上げたVASILY,Inc(現在はZOZO Technologies)に初期のエンジニアとして入社し4年半エンジニアとして開発と運用業務に従事、その後ゴーゴーラボ社での取締役を4年弱務める傍ら副業の業務委託エンジニアとしていくつかのプロジェクトに参加して、2019年11月からVANISH STANDARDのエンジニアとして活動しています。
-得意分野  Androidアプリ開発 (Kotlin or Java)  8年(2011年〜現在) RxKotlin/Dagger2/MVP/MVVM/Firebase  iOSアプリ開発(Swift)  3年(2016年〜現在) RxSwift/Firebase  Ruby on Railsを使ったWebアプリケーション開発  7年(2010年〜現在、途中2年ほどブランクあり)  Firebase(FirebaseAuth,Firestore,etc)  1年(2018年〜現在)  PHPを使ったWebアプリケーション開発  10年(2007年〜現在、途中2年ほどブランクあり) Laravel/FuelPHP/Zend  AWS/GCPを使ったインフラ構築と運用  経歴&amp;amp;取引先  VANISH STANDARD  2019年11月から現在 ソフトウェアエンジニア(正社員) 2017年3月から2019年10月ソフトウェアエンジニア(業務委託)  iOS(Swift)/Android(Kotlin)  [iOS] Realm,RxSwift,Firebase,Fastlane [Android] Dagger2,Coroutine,Retrofit,RxKotlin STAFF START    GoGoLabs,Inc  2019年9月から現在 ソフトウェアエンジニア(業務委託) 2015年10月から2019年8月 ソフトウェアエンジニア(取締役)  Android(Java/Kotlin)  ネイティブアプリの開発を一人で開発と運用をしています gogo.gs GoGoEV  iOS(Swift)  ネイティブアプリの開発を一人で開発と運用をしています gogo.</description>
+得意分野  Androidアプリ開発 (Kotlin or Java)   8年(2011年〜現在) RxKotlin/Dagger2/MVP/MVVM/Firebase  iOSアプリ開発(Swift)   3年(2016年〜現在) RxSwift/Firebase  Ruby on Railsを使ったWebアプリケーション開発   7年(2010年〜現在、途中2年ほどブランクあり)  Firebase(FirebaseAuth,Firestore,etc)   1年(2018年〜現在)  PHPを使ったWebアプリケーション開発   10年(2007年〜現在、途中2年ほどブランクあり) Laravel/FuelPHP/Zend  AWS/GCPを使ったインフラ構築と運用  経歴&amp;amp;取引先  VANISH STANDARD  2019年11月から現在 ソフトウェアエンジニア(正社員) 2017年3月から2019年10月ソフトウェアエンジニア(業務委託)  iOS(Swift)/Android(Kotlin)  [iOS] Realm,RxSwift,Firebase,Fastlane [Android] Dagger2,Coroutine,Retrofit,RxKotlin STAFF START       GoGoLabs,Inc  2019年9月から現在 ソフトウェアエンジニア(業務委託) 2015年10月から2019年8月 ソフトウェアエンジニア(取締役)  Android(Java/Kotlin)  ネイティブアプリの開発を一人で開発と運用をしています gogo.</description>
     </item>
     
   </channel>

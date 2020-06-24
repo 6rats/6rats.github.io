@@ -4,31 +4,71 @@
   
   <url>
     <loc>https://6rats.github.io/categories/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://6rats.github.io/post/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://6rats.github.io/tags/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://6rats.github.io/</loc>
+    <loc>https://6rats.github.io/tags/%E5%8B%89%E5%BC%B7/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/categories/%E5%8B%89%E5%BC%B7/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/post/05/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/%E7%A4%BE%E4%BC%9A/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/categories/%E7%A4%BE%E4%BC%9A/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/%E7%B5%8C%E6%B8%88/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/categories/%E7%B5%8C%E6%B8%88/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/%E8%AA%AD%E6%9B%B8/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/categories/%E8%AA%AD%E6%9B%B8/</loc>
+    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6/</loc>
     <lastmod>2020-04-30T22:55:12+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://6rats.github.io/categories/%E5%AD%90%E8%82%B2%E3%81%A6/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6/</loc>
     <lastmod>2020-04-30T22:55:12+09:00</lastmod>
   </url>
   
@@ -78,12 +118,12 @@
   </url>
   
   <url>
-    <loc>https://6rats.github.io/categories/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
+    <loc>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
     <lastmod>2019-11-19T09:32:52+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
+    <loc>https://6rats.github.io/categories/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
     <lastmod>2019-11-19T09:32:52+09:00</lastmod>
   </url>
   
@@ -99,6 +139,11 @@
   
   <url>
     <loc>https://6rats.github.io/about/</loc>
+    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
   </url>
   
