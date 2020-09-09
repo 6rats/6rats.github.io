@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SwiftUI on エンジニアのメモ</title>
+    <link>https://6rats.github.io/categories/swiftui/</link>
+    <description>Recent content in SwiftUI on エンジニアのメモ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 09 Sep 2020 14:42:40 +0900</lastBuildDate>
+    
+	<atom:link href="https://6rats.github.io/categories/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spacer</title>
+      <link>https://6rats.github.io/post/swiftui_spacer/</link>
+      <pubDate>Wed, 09 Sep 2020 14:42:40 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swiftui_spacer/</guid>
+      <description>固定サイズの空白を作る Spacer().frame(height: 40) Viewを寄せる HStack { Text(&amp;quot;左に寄る&amp;quot;) Spacer() } 上下の場合はVStackでやれる。とりあえず寄るけどもっとマシな方法ありそう。
+Spacerを使うときの極めてふわっとした感覚的なイメージ そこに置くと自分のスペースをできる限り広く確保しようとする、そんな挙動をする</description>
+    </item>
+    
+  </channel>
+</rss>
