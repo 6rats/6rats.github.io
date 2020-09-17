@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>開発 on Memo</title>
+    <link>https://6rats.github.io/categories/%E9%96%8B%E7%99%BA/</link>
+    <description>Recent content in 開発 on Memo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 17 Sep 2020 11:14:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://6rats.github.io/categories/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XVimのInstall</title>
+      <link>https://6rats.github.io/post/install_xvim/</link>
+      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/install_xvim/</guid>
+      <description>(入っていれば)古いのを削除 rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XVim2.xcplugin codesign https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md
+Keychainでの作業をやっているのであれば大抵下記のコマンド実行だけ
+sudo codesign -f -s XcodeSigner /Applications/Xcode.app clone &amp;amp; make git clone git@github.com:XVimProject/XVim2.git XVim2 cd XVim2 make Xcode起動  パスワード聞かれるから入力 Load bundleを選択  </description>
+    </item>
+    
+    <item>
+      <title>PropertyWrappersの基本</title>
+      <link>https://6rats.github.io/post/swift_propertywrapper/</link>
+      <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swift_propertywrapper/</guid>
+      <description>Swiftの公式ドキュメント の抜粋
+@propertyWrapper struct TwelveOrLess { private var number: Int init() { self.number = 0 } var wrappedValue: Int { get { return number } set { number = min(newValue, 12) } } } struct SmallRectangle { @TwelveOrLess var height: Int @TwelveOrLess var width: Int } var rectangle = SmallRectangle() rectangle.height = 10 print(rectangle.height) rectangle.height = 30 print(rectangle.height) PropertyWrapper(@TwelveOrLess)を使わないでSmallRectangleを定義しないとなると下記
+struct SmallRectangle { private var _height = TwelveOrLess() private var _width = TwelveOrLess() var height: Int { get { return _height.</description>
+    </item>
+    
+    <item>
+      <title>ObservableObjectと@Published</title>
+      <link>https://6rats.github.io/post/swift_observableobject/</link>
+      <pubDate>Fri, 11 Sep 2020 09:36:01 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swift_observableobject/</guid>
+      <description>import SwiftUI import Combine class Contact: ObservableObject { var name: String @Published var age: Int init(name: String, age: Int) { self.name = name self.age = age } func haveBirthday() -&amp;gt; Int { age += 1 return age } func changeName() { name = &amp;quot;Changed!&amp;quot; } } let john = Contact(name: &amp;quot;MyName&amp;quot;, age: 10) var cancellable = john.objectWillChange .sink { _ in print(john.age) print(john.name) } john.haveBirthday() john.changeName()  ageは@PublishedになっているのでobjectWillChangeは流れてくる nameは@PublishedつけてないのでobjectWillChangeは流れない  </description>
+    </item>
+    
+    <item>
+      <title>Bindingを持つViewにinitを実装するとき</title>
+      <link>https://6rats.github.io/post/swiftui_binding_constructor/</link>
+      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swiftui_binding_constructor/</guid>
+      <description>ViewにBindingがあるときコンストラクタで何もしないのであれば基本的にはいい感じのinitが用意されるが、インスタンス化のタイミングで何かしたい場合はひと工夫必要
+コンストラクタでBinding&amp;lt;&amp;gt;で受け取って_をつけてで代入するらしい PropertyWrappersの基本 参照
+struct LoginView: View { @Binding var showingLogin:Bool init(showingLogin: Binding&amp;lt;Bool&amp;gt;) { self._showingLogin = showingLogin //do something } } </description>
+    </item>
+    
+    <item>
+      <title>Spacer</title>
+      <link>https://6rats.github.io/post/swiftui_spacer/</link>
+      <pubDate>Wed, 09 Sep 2020 14:42:40 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swiftui_spacer/</guid>
+      <description>固定サイズの空白を作る Spacer().frame(height: 40) Viewを寄せる HStack { Text(&amp;quot;左に寄る&amp;quot;) Spacer() } 上下の場合はVStackでやれる。とりあえず寄るけどもっとマシな方法ありそう。
+Spacerを使うときの極めてふわっとした感覚的なイメージ そこに置くと自分のスペースをできる限り広く確保しようとする、そんな挙動をする</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja-jp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>XVimのInstall - Memo</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-47678488-10', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="Memo" rel="home">
+				<div class="logo__title">Memo</div>
+				<div class="logo__tagline">未来の自分のためのメモ</div>
+			</a>
+		</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">XVimのInstall</h1>
+			
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#入っていれば古いのを削除">(入っていれば)古いのを削除</a></li>
+        <li><a href="#codesign">codesign</a></li>
+        <li><a href="#clone--make">clone &amp; make</a></li>
+        <li><a href="#xcode起動">Xcode起動</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<h3 id="入っていれば古いのを削除">(入っていれば)古いのを削除</h3>
+<pre><code>rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XVim2.xcplugin 
+</code></pre><h3 id="codesign">codesign</h3>
+<p><a href="https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md">https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md</a></p>
+<p>Keychainでの作業をやっているのであれば大抵下記のコマンド実行だけ</p>
+<pre><code>sudo codesign -f -s XcodeSigner /Applications/Xcode.app
+</code></pre><h3 id="clone--make">clone &amp; make</h3>
+<pre><code>git clone git@github.com:XVimProject/XVim2.git XVim2
+cd XVim2
+make
+</code></pre><h3 id="xcode起動">Xcode起動</h3>
+<ul>
+<li>パスワード聞かれるから入力</li>
+<li>Load bundleを選択</li>
+</ul>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/ios/" rel="tag">iOS</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/xcode/" rel="tag">Xcode</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/xvim/" rel="tag">XVim</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="/post/swift_propertywrapper/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">PropertyWrappersの基本</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Memo.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

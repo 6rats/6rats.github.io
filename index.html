@@ -5,14 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>エンジニアのメモ</title>
+	<title>Memo</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="エンジニアのメモ">
+	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Memo">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
 	
@@ -45,9 +45,9 @@ if (!doNotTrack) {
 		<header class="header">
 	<div class="container">
 		<div class="logo">
-			<a class="logo__link" href="/" title="エンジニアのメモ" rel="home">
-				<div class="logo__title">エンジニアのメモ</div>
-				<div class="logo__tagline">エンジニアによるコード以外のメモ</div>
+			<a class="logo__link" href="/" title="Memo" rel="home">
+				<div class="logo__title">Memo</div>
+				<div class="logo__tagline">未来の自分のためのメモ</div>
 			</a>
 		</div>
 		<div class="divider"></div>
@@ -58,6 +58,63 @@ if (!doNotTrack) {
 			
 <main class="main list" role="main">
 	<article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/install_xvim/" rel="bookmark">
+			XVimのInstall
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		(入っていれば)古いのを削除 rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XVim2.xcplugin codesign https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md
+Keychainでの作業をやっているのであれば大抵下記のコマンド実行だけ
+sudo codesign -f -s XcodeSigner /Applications/Xcode.app clone &amp; make git clone git@github.com:XVimProject/XVim2.git XVim2 cd XVim2 make Xcode起動  パスワード聞かれるから入力 Load bundleを選択  
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/swift_propertywrapper/" rel="bookmark">
+			PropertyWrappersの基本
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Swiftの公式ドキュメント の抜粋
+@propertyWrapper struct TwelveOrLess { private var number: Int init() { self.number = 0 } var wrappedValue: Int { get { return number } set { number = min(newValue, 12) } } } struct SmallRectangle { @TwelveOrLess var height: Int @TwelveOrLess var width: Int } var rectangle = SmallRectangle() rectangle.height = 10 print(rectangle.height) rectangle.height = 30 print(rectangle.height) PropertyWrapper(@TwelveOrLess)を使わないでSmallRectangleを定義しないとなると下記
+struct SmallRectangle { private var _height = TwelveOrLess() private var _width = TwelveOrLess() var height: Int { get { return _height.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/post/swift_propertywrapper/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/swift_observableobject/" rel="bookmark">
+			ObservableObjectと@Published
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		import SwiftUI import Combine class Contact: ObservableObject { var name: String @Published var age: Int init(name: String, age: Int) { self.name = name self.age = age } func haveBirthday() -&gt; Int { age += 1 return age } func changeName() { name = &quot;Changed!&quot; } } let john = Contact(name: &quot;MyName&quot;, age: 10) var cancellable = john.objectWillChange .sink { _ in print(john.age) print(john.name) } john.haveBirthday() john.changeName()  ageは@PublishedになっているのでobjectWillChangeは流れてくる nameは@PublishedつけてないのでobjectWillChangeは流れない  
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/swiftui_binding_constructor/" rel="bookmark">
+			Bindingを持つViewにinitを実装するとき
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		ViewにBindingがあるときコンストラクタで何もしないのであれば基本的にはいい感じのinitが用意されるが、インスタンス化のタイミングで何かしたい場合はひと工夫必要
+コンストラクタでBinding&lt;&gt;で受け取って_をつけてで代入するらしい PropertyWrappersの基本 参照
+struct LoginView: View { @Binding var showingLogin:Bool init(showingLogin: Binding&lt;Bool&gt;) { self._showingLogin = showingLogin //do something } } 
+	</div>
+</article><article class="list__item post">
 	<header class="list__header">
 		<h3 class="list__title post__title ">
 			<a href="/post/07/" rel="bookmark">
@@ -107,7 +164,7 @@ Spacerを使うときの極めてふわっとした感覚的なイメージ そ�
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		先日ふとしたことから下記のようなページを見つけました
+		はじめに 先日ふとしたことから下記のようなページを見つけました
 No More Google
 僕はGoogleのサービスをかなり利用しており、正直Googleなしでは生きていけないのでは？とすら思っていました。しかしあえてGoogleを使わない生活は可能なのか？置き換えるサービスはあるのか？単純な好奇心から実際に置き換えてみることにしました。前提として僕はGoogleが好きです。念のため。
 事前の予測として、僕がサービスを選ぶ傾向としてアカウントあれこれ作るの面倒でGoogleに寄ってるのでまたどこかに寄っていくような気配はしています&hellip;
@@ -125,7 +182,6 @@ Google Takeoutで音楽を含めGoogleに預けてあるデータをすべてエ
 あとはApple MusicかSpotifyかもしくは他のサービス（AWAとかLINE Musicとか）試していく感じ。
 Google Photo iCloud Photoに置き換え 数年にわたってGoogle Photoに上げ続けてきたので、大変だろうと思いつつやってみた。
 YoutubeMusic同様にGoogle Takeoutで写真はすべてエクスポートできる。Googleフォトでアルバムを作っている場合は写真が重複(原本の写真とアルバムにある写真は別物扱いされてる)してダウンロードされるので注意。僕はiCloud Photoに上げる前にDuplicate Photos Fixer Proというソフトウェアを使って重複を除去しました。
-最終的に写真は18GBになったんですが、Google Photo上だと2.
 	</div>
 	<div class="list__footer clearfix">
 		<a class="list__footer-readmore btn" href="/post/06/">Read more…</a>
@@ -161,88 +217,13 @@ YoutubeMusic同様にGoogle Takeoutで写真はすべてエクスポートでき
  Pechat(ペチャット) 家にあるぬいぐるみにつけて遊ぶ。結構喜ぶ。
 k 
 	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/03/" rel="bookmark">
-			子供に読んでいる本
-			</a>
-		</h3>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		※ 随時更新
-かえってきたへんしんトンネル 保育園でも読んでいたらしい。読み方にちょっとしたコツが必要で楽しめる
- ノラネコぐんだん カレーライス キャラクターの絵がかわいいけど、隅々まできちんと描き込まれてる印象
- ピヨピヨハッピーバースデー 同じく工藤ノリコさんの本、読むと結構聞いてくれる。ハッピーバースデー系は結構子供が好き
- トーマスのベッドタイムストーリー 寝かしつけの時の鉄板になりつつある。だいぶよく聞いてくれる
- ぶたのたね オチがいまいち掴みにくいけど、子供の心は掴んでる模様
- こんとあき 3歳ぐらいになるとちょっと複雑な本も聞いてられるようになってくる
- おおきなおおきな おいも 途中「いもらす」というくだりがあってすごく好き
- 
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/02/" rel="bookmark">
-			リモートワークで気をつけていること
-			</a>
-		</h3>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		途中で職場が変わっているものの、2016年あたりから基本的にリモートで働いているので気をつけていることをメモ
-※ この先も働く上で気がついたことは追記、更新していく予定ですが基本的には自分へのメモです
-※ リモート関係ないこともあるかも
-※ コロナウィルスの影響で同僚がほぼ全員リモートなので一部今の世の中に合ってないこともあるかも
-アウトプットは明確に 何をいつまでにやるのかは明確にしておく、事前に認識合わせしておく 例）〇〇機能を3月中に実装完了して4月頭にはテストを開始する
-早めのアラート 仕事が間に合わないかもといった場合。オフィスで夜遅くまで残業していれば、誰かに気にしてもらえるがリモートだとそういう「雰囲気を察してもらう」ことはできないのでヤバそうなら早めに伝えておく
-タスクの棚卸し 前段のアラートは早めに上げる以前に「自分がやばい状態なのか気が付かない」ことがあるかもしれない
-そんなことがおきないようにタスクの棚卸しは高頻度でやる。終わってる？終わってない？何が揃えば終わり？終わってないけど大丈夫？
-チームでチケット管理などをしていればそこにすべてを書き出せばいいし、ないのであれば手元で簡単なTODOリストを用意して整理整頓して管理
-何か頼まれたりしたら、それがどんなに簡単なものであっても手を付ける前にまずはリストに追加して一旦リストの全体を見て何に手をつけたらいいのか判断
-非同期を意識する 質問したり確認をお願いしたらレスが返って来るまでにある程度の時間がかかることを意識する。「待つ」ことはせずその間に別のタスクを進めてしまう
-人によってレスのスピード違うのでそこはきちんと把握していく（即レスの人もいれば、1日経ってやっと返してくる人もいる）
-レスを「待つ」時間は細かいタスクを潰すいいタイミングだったりするので段取り大事
-タスクの棚卸し、非同期を意識できるようになると少し自分で組み立てる努力をしてみる
-例）〇〇機能の実装が終わって確認してもらおう。おそらく確認してレスをもらうのには1時間くらいはかかるだろうからサクッと終わりそうな細かいタスクをその間に2つ片付ける
-すぐに相談しないで調べる すぐに聞かない。まず30分くらい考えたり調べたりしていると問題への理解が深まって質問の精度をあげられることがある。あわよくば自己解決することもある わからないからといっていきなりチャットで質問すると説明に説明を重ねることになったりして相手と自分の時間を大幅に失う
-電話しない 言った言わなかったになるから、なるべく電話しない。もし電話してもテキストでまとめて合意を取る
-なるべく即レス 即答できることは即答するが、即答できないときはちょっと調べますとか考えますとかまずは返しておく。長時間の無反応はなるべく避ける
-でも頑張りすぎると息が詰まるからほどほどに
-いつでも退職できる心構えでやる 本当に退職するかどうかはともかく、大抵の場合退職後はその業務にタッチできなくなるので、それなりの精度で引き継がないといけないはず。それくらいの気持ちでやるほうが業務の共有の精度があがる 単にドキュメントを残すだけでなく業務そのものを全く知らない第三者に引き継ぎやすいように普段から整備しておくのが重要
-余計な推測はしない オフィスにいないのでオフィスで何が起こっているのかわからなくてモヤモヤすることがあるかもしれないが、推測はしない
-身の回りはきれいにしておく 物理的にもデジタル的にも
-物理的には掃除しておく、気が散るものを周りに置かない
-デジタル的には余計なメールやプッシュが飛んで来ないように、ふとしたときに開いてしまいそうな使ってないサービスは解約しておく
-適度に運動する 腕立て伏せでもプランクでもいいので少しだけでもやる
-頑張り過ぎない 姿が見えないからといって、過剰に仕事ぶりを見せようと頑張り過ぎない。
-小さな気晴らしを取り入れる  FLOWERで花を家に飾る https://flowr.is  
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/01/" rel="bookmark">
-			再開
-			</a>
-		</h3>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		数ヶ月前、それまで約9年書き続けたブログを閉じました。
-僕にとってのそれまでのブログの役割をgistが取って代わったと感じたからです。
-ブログの内容がほぼコードのスニペット集だったのですが、それらは平行して利用していたgistで代用できると思ったことがきっかけでした。
-gistにもブログにも同じ内容を書いていることに気が付き重複は生産性が高くないと感じ、どちらかを断捨離しようと思った結果ブログの方を捨てる決断をしました。 基本的には未来の自分へのメモですが、ついでに誰かの役に立てればいいなと思っています。
-不特定多数の人をターゲットにしたブログというフォーマットより、コードを書くエンジニアを主なターゲットとしたgistの方がいいと思った事が大きかったです。
-しかしながら、自身の経験、考え、働き方といったコードでは表現できない内容を共有することで誰かのヒントになればいいかなとも思っています。
-Twitterを更新してみたりしましたが、極力プラットフォームのルールにしばられず自由に書ける場を探した結果github pageでブログを再開するという結論にたどり着きました。
-以前の個人的なメモみたいな雑なブログを読んでくれた方。
-急に離れてしまって申し訳ありませんでした。この場を借りてお詫び申し上げます。
-今後はコードのスニペットはgistで、コード以外のことは本ブログで書き残して行きたいと思います。
-ではまた。
-	</div>
 </article>
 </main>
+
+<div class="pagination">
+	<span class="pagination__item pagination__item--current">1/2</span>
+	<a class="pagination__item pagination__item--next btn" href="/page/2/">»</a>
+</div>
 
 
 			</div>
@@ -251,11 +232,11 @@ Twitterを更新してみたりしましたが、極力プラットフォーム�
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/install_xvim/">XVimのInstall</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/swift_propertywrapper/">PropertyWrappersの基本</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/swift_observableobject/">ObservableObjectと@Published</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/swiftui_binding_constructor/">Bindingを持つViewにinitを実装するとき</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/07/">方針転換</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/swiftui_spacer/">Spacer</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo/">HUGO</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/06/">No More Google?</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/05/">日本人の勝算―人口減少×高齢化×資本主義</a></li>
 		</ul>
 	</div>
 </div>
@@ -264,34 +245,16 @@ Twitterを更新してみたりしましたが、極力プラットフォーム�
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
-				<a class="widget__link" href="/categories/swiftui/">SwiftUI</a>
-			</li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/%E3%83%84%E3%83%BC%E3%83%AB/">ツール</a>
-			</li>
-			<li class="widget__item">
 				<a class="widget__link" href="/categories/%E3%83%96%E3%83%AD%E3%82%B0/">ブログ</a>
-			</li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/%E5%83%8D%E3%81%8D%E6%96%B9/">働き方</a>
-			</li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/%E5%8B%89%E5%BC%B7/">勉強</a>
 			</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/%E5%AD%90%E8%82%B2%E3%81%A6/">子育て</a>
 			</li>
 			<li class="widget__item">
-				<a class="widget__link" href="/categories/%E6%95%B4%E7%90%86%E6%95%B4%E9%A0%93/">整理整頓</a>
-			</li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/%E7%A4%BE%E4%BC%9A/">社会</a>
-			</li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/%E7%B5%8C%E6%B8%88/">経済</a>
-			</li>
-			<li class="widget__item">
 				<a class="widget__link" href="/categories/%E8%AA%AD%E6%9B%B8/">読書</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E9%96%8B%E7%99%BA/">開発</a>
 			</li>
 		</ul>
 	</div>
@@ -300,11 +263,18 @@ Twitterを更新してみたりしましたが、極力プラットフォーム�
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
 		<a class="widget-taglist__link widget__link btn" href="/tags/apple/" title="Apple">Apple (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/binding/" title="Binding">Binding (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/google/" title="Google">Google (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="HUGO">HUGO (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/swift/" title="Swift">Swift (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/swiftui/" title="SwiftUI">SwiftUI (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ios/" title="iOS">iOS (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/observableobject/" title="ObservableObject">ObservableObject (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/propertywrapper/" title="PropertyWrapper">PropertyWrapper (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/published/" title="Published">Published (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/swift/" title="Swift">Swift (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/swiftui/" title="SwiftUI">SwiftUI (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/" title="Webサービス">Webサービス (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/xcode/" title="Xcode">Xcode (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/xvim/" title="XVim">XVim (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E3%83%96%E3%83%AD%E3%82%B0/" title="ブログ">ブログ (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E3%83%A1%E3%83%A2/" title="メモ">メモ (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/" title="リモートワーク">リモートワーク (1)</a>
@@ -324,6 +294,12 @@ Twitterを更新してみたりしましたが、極力プラットフォーム�
 <div class="widget-social widget">
 	<h4 class="widget-social__title widget__title">Social</h4>
 	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/takuro.murata.37" target="_blank">
+				<svg class="widget-social__link-icon icon icon-facebook" width="24" height="24" viewBox="0 0 352 352"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
+				<span>Facebook</span>
+			</a>
+		</div>
 		<div class="widget-social__item widget__item">
 			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/6rats" target="_blank">
 				<svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
@@ -350,7 +326,7 @@ Twitterを更新してみたりしましたが、極力プラットフォーム�
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2020 エンジニアのメモ.
+			&copy; 2020 Memo.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

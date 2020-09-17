@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SwiftUI on エンジニアのメモ</title>
+    <title>SwiftUI on Memo</title>
     <link>https://6rats.github.io/tags/swiftui/</link>
-    <description>Recent content in SwiftUI on エンジニアのメモ</description>
+    <description>Recent content in SwiftUI on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 09 Sep 2020 14:42:40 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2020 09:43:55 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bindingを持つViewにinitを実装するとき</title>
+      <link>https://6rats.github.io/post/swiftui_binding_constructor/</link>
+      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swiftui_binding_constructor/</guid>
+      <description>ViewにBindingがあるときコンストラクタで何もしないのであれば基本的にはいい感じのinitが用意されるが、インスタンス化のタイミングで何かしたい場合はひと工夫必要
+コンストラクタでBinding&amp;lt;&amp;gt;で受け取って_をつけてで代入するらしい PropertyWrappersの基本 参照
+struct LoginView: View { @Binding var showingLogin:Bool init(showingLogin: Binding&amp;lt;Bool&amp;gt;) { self._showingLogin = showingLogin //do something } } </description>
+    </item>
     
     <item>
       <title>Spacer</title>

@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>エンジニアのメモ</title>
+    <title>Memo</title>
     <link>https://6rats.github.io/</link>
-    <description>Recent content on エンジニアのメモ</description>
+    <description>Recent content on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>XVimのInstall</title>
+      <link>https://6rats.github.io/post/install_xvim/</link>
+      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/install_xvim/</guid>
+      <description>(入っていれば)古いのを削除 rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XVim2.xcplugin codesign https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md
+Keychainでの作業をやっているのであれば大抵下記のコマンド実行だけ
+sudo codesign -f -s XcodeSigner /Applications/Xcode.app clone &amp;amp; make git clone git@github.com:XVimProject/XVim2.git XVim2 cd XVim2 make Xcode起動  パスワード聞かれるから入力 Load bundleを選択  </description>
+    </item>
+    
+    <item>
+      <title>PropertyWrappersの基本</title>
+      <link>https://6rats.github.io/post/swift_propertywrapper/</link>
+      <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swift_propertywrapper/</guid>
+      <description>Swiftの公式ドキュメント の抜粋
+@propertyWrapper struct TwelveOrLess { private var number: Int init() { self.number = 0 } var wrappedValue: Int { get { return number } set { number = min(newValue, 12) } } } struct SmallRectangle { @TwelveOrLess var height: Int @TwelveOrLess var width: Int } var rectangle = SmallRectangle() rectangle.height = 10 print(rectangle.height) rectangle.height = 30 print(rectangle.height) PropertyWrapper(@TwelveOrLess)を使わないでSmallRectangleを定義しないとなると下記
+struct SmallRectangle { private var _height = TwelveOrLess() private var _width = TwelveOrLess() var height: Int { get { return _height.</description>
+    </item>
+    
+    <item>
+      <title>ObservableObjectと@Published</title>
+      <link>https://6rats.github.io/post/swift_observableobject/</link>
+      <pubDate>Fri, 11 Sep 2020 09:36:01 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swift_observableobject/</guid>
+      <description>import SwiftUI import Combine class Contact: ObservableObject { var name: String @Published var age: Int init(name: String, age: Int) { self.name = name self.age = age } func haveBirthday() -&amp;gt; Int { age += 1 return age } func changeName() { name = &amp;quot;Changed!&amp;quot; } } let john = Contact(name: &amp;quot;MyName&amp;quot;, age: 10) var cancellable = john.objectWillChange .sink { _ in print(john.age) print(john.name) } john.haveBirthday() john.changeName()  ageは@PublishedになっているのでobjectWillChangeは流れてくる nameは@PublishedつけてないのでobjectWillChangeは流れない  </description>
+    </item>
+    
+    <item>
+      <title>Bindingを持つViewにinitを実装するとき</title>
+      <link>https://6rats.github.io/post/swiftui_binding_constructor/</link>
+      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/swiftui_binding_constructor/</guid>
+      <description>ViewにBindingがあるときコンストラクタで何もしないのであれば基本的にはいい感じのinitが用意されるが、インスタンス化のタイミングで何かしたい場合はひと工夫必要
+コンストラクタでBinding&amp;lt;&amp;gt;で受け取って_をつけてで代入するらしい PropertyWrappersの基本 参照
+struct LoginView: View { @Binding var showingLogin:Bool init(showingLogin: Binding&amp;lt;Bool&amp;gt;) { self._showingLogin = showingLogin //do something } } </description>
+    </item>
     
     <item>
       <title>方針転換</title>
@@ -48,7 +90,7 @@ Spacerを使うときの極めてふわっとした感覚的なイメージ そ�
       <pubDate>Thu, 03 Sep 2020 09:29:52 +0900</pubDate>
       
       <guid>https://6rats.github.io/post/06/</guid>
-      <description>先日ふとしたことから下記のようなページを見つけました
+      <description>はじめに 先日ふとしたことから下記のようなページを見つけました
 No More Google
 僕はGoogleのサービスをかなり利用しており、正直Googleなしでは生きていけないのでは？とすら思っていました。しかしあえてGoogleを使わない生活は可能なのか？置き換えるサービスはあるのか？単純な好奇心から実際に置き換えてみることにしました。前提として僕はGoogleが好きです。念のため。
 事前の予測として、僕がサービスを選ぶ傾向としてアカウントあれこれ作るの面倒でGoogleに寄ってるのでまたどこかに寄っていくような気配はしています&amp;hellip;
@@ -65,8 +107,7 @@ Google Play Musicの頃からファミリープラン(1480円/月)で使って�
 Google Takeoutで音楽を含めGoogleに預けてあるデータをすべてエクスポートできる。
 あとはApple MusicかSpotifyかもしくは他のサービス（AWAとかLINE Musicとか）試していく感じ。
 Google Photo iCloud Photoに置き換え 数年にわたってGoogle Photoに上げ続けてきたので、大変だろうと思いつつやってみた。
-YoutubeMusic同様にGoogle Takeoutで写真はすべてエクスポートできる。Googleフォトでアルバムを作っている場合は写真が重複(原本の写真とアルバムにある写真は別物扱いされてる)してダウンロードされるので注意。僕はiCloud Photoに上げる前にDuplicate Photos Fixer Proというソフトウェアを使って重複を除去しました。
-最終的に写真は18GBになったんですが、Google Photo上だと2.</description>
+YoutubeMusic同様にGoogle Takeoutで写真はすべてエクスポートできる。Googleフォトでアルバムを作っている場合は写真が重複(原本の写真とアルバムにある写真は別物扱いされてる)してダウンロードされるので注意。僕はiCloud Photoに上げる前にDuplicate Photos Fixer Proというソフトウェアを使って重複を除去しました。</description>
     </item>
     
     <item>

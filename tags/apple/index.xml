@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apple on エンジニアのメモ</title>
+    <title>Apple on Memo</title>
     <link>https://6rats.github.io/tags/apple/</link>
-    <description>Recent content in Apple on エンジニアのメモ</description>
+    <description>Recent content in Apple on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 03 Sep 2020 09:29:52 +0900</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 03 Sep 2020 09:29:52 +0900</pubDate>
       
       <guid>https://6rats.github.io/post/06/</guid>
-      <description>先日ふとしたことから下記のようなページを見つけました
+      <description>はじめに 先日ふとしたことから下記のようなページを見つけました
 No More Google
 僕はGoogleのサービスをかなり利用しており、正直Googleなしでは生きていけないのでは？とすら思っていました。しかしあえてGoogleを使わない生活は可能なのか？置き換えるサービスはあるのか？単純な好奇心から実際に置き換えてみることにしました。前提として僕はGoogleが好きです。念のため。
 事前の予測として、僕がサービスを選ぶ傾向としてアカウントあれこれ作るの面倒でGoogleに寄ってるのでまたどこかに寄っていくような気配はしています&amp;hellip;
@@ -34,8 +34,7 @@ Google Play Musicの頃からファミリープラン(1480円/月)で使って�
 Google Takeoutで音楽を含めGoogleに預けてあるデータをすべてエクスポートできる。
 あとはApple MusicかSpotifyかもしくは他のサービス（AWAとかLINE Musicとか）試していく感じ。
 Google Photo iCloud Photoに置き換え 数年にわたってGoogle Photoに上げ続けてきたので、大変だろうと思いつつやってみた。
-YoutubeMusic同様にGoogle Takeoutで写真はすべてエクスポートできる。Googleフォトでアルバムを作っている場合は写真が重複(原本の写真とアルバムにある写真は別物扱いされてる)してダウンロードされるので注意。僕はiCloud Photoに上げる前にDuplicate Photos Fixer Proというソフトウェアを使って重複を除去しました。
-最終的に写真は18GBになったんですが、Google Photo上だと2.</description>
+YoutubeMusic同様にGoogle Takeoutで写真はすべてエクスポートできる。Googleフォトでアルバムを作っている場合は写真が重複(原本の写真とアルバムにある写真は別物扱いされてる)してダウンロードされるので注意。僕はiCloud Photoに上げる前にDuplicate Photos Fixer Proというソフトウェアを使って重複を除去しました。</description>
     </item>
     
   </channel>

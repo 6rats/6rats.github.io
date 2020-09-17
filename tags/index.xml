@@ -1,15 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on エンジニアのメモ</title>
+    <title>Tags on Memo</title>
     <link>https://6rats.github.io/tags/</link>
-    <description>Recent content in Tags on エンジニアのメモ</description>
+    <description>Recent content in Tags on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 09 Sep 2020 15:13:42 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2020 11:14:08 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iOS</title>
+      <link>https://6rats.github.io/tags/ios/</link>
+      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xcode</title>
+      <link>https://6rats.github.io/tags/xcode/</link>
+      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/xcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XVim</title>
+      <link>https://6rats.github.io/tags/xvim/</link>
+      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/xvim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PropertyWrapper</title>
+      <link>https://6rats.github.io/tags/propertywrapper/</link>
+      <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/propertywrapper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://6rats.github.io/tags/swift/</link>
+      <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ObservableObject</title>
+      <link>https://6rats.github.io/tags/observableobject/</link>
+      <pubDate>Fri, 11 Sep 2020 09:36:01 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/observableobject/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Published</title>
+      <link>https://6rats.github.io/tags/published/</link>
+      <pubDate>Fri, 11 Sep 2020 09:36:01 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/published/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Binding</title>
+      <link>https://6rats.github.io/tags/binding/</link>
+      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/binding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SwiftUI</title>
+      <link>https://6rats.github.io/tags/swiftui/</link>
+      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/swiftui/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ブログ</title>
@@ -17,24 +98,6 @@
       <pubDate>Wed, 09 Sep 2020 15:13:42 +0900</pubDate>
       
       <guid>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift</title>
-      <link>https://6rats.github.io/tags/swift/</link>
-      <pubDate>Wed, 09 Sep 2020 14:42:40 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/swift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SwiftUI</title>
-      <link>https://6rats.github.io/tags/swiftui/</link>
-      <pubDate>Wed, 09 Sep 2020 14:42:40 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/swiftui/</guid>
       <description></description>
     </item>
     

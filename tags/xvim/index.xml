@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XVim on Memo</title>
+    <link>https://6rats.github.io/tags/xvim/</link>
+    <description>Recent content in XVim on Memo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 17 Sep 2020 11:14:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://6rats.github.io/tags/xvim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XVimのInstall</title>
+      <link>https://6rats.github.io/post/install_xvim/</link>
+      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/install_xvim/</guid>
+      <description>(入っていれば)古いのを削除 rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XVim2.xcplugin codesign https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md
+Keychainでの作業をやっているのであれば大抵下記のコマンド実行だけ
+sudo codesign -f -s XcodeSigner /Applications/Xcode.app clone &amp;amp; make git clone git@github.com:XVimProject/XVim2.git XVim2 cd XVim2 make Xcode起動  パスワード聞かれるから入力 Load bundleを選択  </description>
+    </item>
+    
+  </channel>
+</rss>
