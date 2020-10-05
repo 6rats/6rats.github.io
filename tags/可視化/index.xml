@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xcode on Memo</title>
-    <link>https://6rats.github.io/tags/xcode/</link>
-    <description>Recent content in Xcode on Memo</description>
+    <title>可視化 on Memo</title>
+    <link>https://6rats.github.io/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</link>
+    <description>Recent content in 可視化 on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 02 Oct 2020 09:45:04 +0900</lastBuildDate>
     
-	<atom:link href="https://6rats.github.io/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://6rats.github.io/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <description>Installation brew cask install bitbar mkdir ~/BitBarPlugins cd ~/BitBarPlugins curl https://raw.githubusercontent.com/matopeto/xcode-build-times/master/sources/xcodeBuildTimes.1m.php --output xcodeBuildTimes.1m.php chmod +x xcodeBuildTimes.1m.php Bitbarのpluginフォルダを~/BitBarPluginsに設定する
 Xcode Preference Behaviors → Edit Behaviors → Build → Starts,Succeeds,Failsの「Run」にxcodeBuildTimes.1m.phpを指定する
 Reference https://github.com/matopeto/xcode-build-times</description>
-    </item>
-    
-    <item>
-      <title>XVimのInstall</title>
-      <link>https://6rats.github.io/post/install_xvim/</link>
-      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/install_xvim/</guid>
-      <description>(入っていれば)古いのを削除 rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XVim2.xcplugin codesign https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md
-Keychainでの作業をやっているのであれば大抵下記のコマンド実行だけ
-sudo codesign -f -s XcodeSigner /Applications/Xcode.app clone &amp;amp; make git clone git@github.com:XVimProject/XVim2.git XVim2 cd XVim2 make Xcode起動  パスワード聞かれるから入力 Load bundleを選択  </description>
     </item>
     
   </channel>

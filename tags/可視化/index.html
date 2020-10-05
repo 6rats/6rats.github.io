@@ -4,14 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>読書 - Memo</title>
+	<title>可視化 - Memo</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="alternate" type="application/rss+xml" href="/tags/%E8%AA%AD%E6%9B%B8/index.xml" title="Memo">
+	<link rel="alternate" type="application/rss+xml" href="/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/index.xml" title="Memo">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
 	
@@ -57,21 +57,20 @@ if (!doNotTrack) {
 			
 <main class="main list" role="main">
 	<header class="main__header">
-		<h1 class="main__title">読書</h1>
+		<h1 class="main__title">可視化</h1>
 	</header><article class="list__item post">
 	<header class="list__header">
 		<h3 class="list__title post__title ">
-			<a href="/post/05/" rel="bookmark">
-			日本人の勝算―人口減少×高齢化×資本主義
+			<a href="/post/xcode_build_times/" rel="bookmark">
+			Xcodeでビルドに費やしてる時間を可視化する
 			</a>
 		</h3>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		読み途中だけど簡単にめも
-これからの日本の問題  人口は減っていって経済はものすごいスピードでシュリンクしていく 高齢化が加速度的に進むので人が減っていく上に消費が減る(年取るとそんなに消費しない)  解決策 生産性を上げる
- 企業を統廃合して効率を上げる(今は非生産的な中小企業が多すぎるからまとめて効率化する) 最低賃金を上げる(最低賃金のUPに対応できるように企業は効率を上げて頑張るはず、効率上げられない企業は残念ながら&hellip;) 賃金が上がれば消費も回る 最低賃金の管轄が経済産業省ではなく厚生労働省なのも問題、社会政策としてではなく経済政策とすべき 輸出をするべき(それにはある程度の企業規模が必要なのでなおさら企業は統合を進めて規模を大きくすべき)  個人的に思ったこと 労働力を搾取するような企業では働かないことも重要なのかも。賃金を上げろと言ってもなかなか会社は動かないから自ら動くのもいいのかもと思う。
- 
+		Installation brew cask install bitbar mkdir ~/BitBarPlugins cd ~/BitBarPlugins curl https://raw.githubusercontent.com/matopeto/xcode-build-times/master/sources/xcodeBuildTimes.1m.php --output xcodeBuildTimes.1m.php chmod +x xcodeBuildTimes.1m.php Bitbarのpluginフォルダを~/BitBarPluginsに設定する
+Xcode Preference Behaviors → Edit Behaviors → Build → Starts,Succeeds,Failsの「Run」にxcodeBuildTimes.1m.phpを指定する
+Reference https://github.com/matopeto/xcode-build-times
 	</div>
 </article>
 </main>

@@ -61,6 +61,20 @@ if (!doNotTrack) {
 	</header><article class="list__item post">
 	<header class="list__header">
 		<h3 class="list__title post__title ">
+			<a href="/post/xcode_build_times/" rel="bookmark">
+			Xcodeでビルドに費やしてる時間を可視化する
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Installation brew cask install bitbar mkdir ~/BitBarPlugins cd ~/BitBarPlugins curl https://raw.githubusercontent.com/matopeto/xcode-build-times/master/sources/xcodeBuildTimes.1m.php --output xcodeBuildTimes.1m.php chmod +x xcodeBuildTimes.1m.php Bitbarのpluginフォルダを~/BitBarPluginsに設定する
+Xcode Preference Behaviors → Edit Behaviors → Build → Starts,Succeeds,Failsの「Run」にxcodeBuildTimes.1m.phpを指定する
+Reference https://github.com/matopeto/xcode-build-times
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
 			<a href="/post/install_xvim/" rel="bookmark">
 			XVimのInstall
 			</a>
@@ -202,22 +216,6 @@ YoutubeMusic同様にGoogle Takeoutで写真はすべてエクスポートでき
  企業を統廃合して効率を上げる(今は非生産的な中小企業が多すぎるからまとめて効率化する) 最低賃金を上げる(最低賃金のUPに対応できるように企業は効率を上げて頑張るはず、効率上げられない企業は残念ながら&hellip;) 賃金が上がれば消費も回る 最低賃金の管轄が経済産業省ではなく厚生労働省なのも問題、社会政策としてではなく経済政策とすべき 輸出をするべき(それにはある程度の企業規模が必要なのでなおさら企業は統合を進めて規模を大きくすべき)  個人的に思ったこと 労働力を搾取するような企業では働かないことも重要なのかも。賃金を上げろと言ってもなかなか会社は動かないから自ら動くのもいいのかもと思う。
  
 	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/04/" rel="bookmark">
-			子育て関連で買ってよかったもの
-			</a>
-		</h3>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		※ 随時更新
-鼻水吸引機 鼻水垂れ流しは良くないらしい。かといって鼻はかめない。最初凄く怖がるけど慣れれば問題なし。
- くるくるチャイム よく遊ぶ。ボール以外のものを突っ込む
- Pechat(ペチャット) 家にあるぬいぐるみにつけて遊ぶ。結構喜ぶ。
-k 
-	</div>
 </article>
 </main>
 
@@ -234,11 +232,11 @@ k
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/xcode_build_times/">Xcodeでビルドに費やしてる時間を可視化する</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/install_xvim/">XVimのInstall</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/swift_propertywrapper/">PropertyWrappersの基本</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/swift_observableobject/">ObservableObjectと@Published</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/swiftui_binding_constructor/">Bindingを持つViewにinitを実装するとき</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/07/">方針転換</a></li>
 		</ul>
 	</div>
 </div>
@@ -275,13 +273,14 @@ k
 		<a class="widget-taglist__link widget__link btn" href="/tags/swift/" title="Swift">Swift (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/swiftui/" title="SwiftUI">SwiftUI (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/" title="Webサービス">Webサービス (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/xcode/" title="Xcode">Xcode (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/xcode/" title="Xcode">Xcode (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/xvim/" title="XVim">XVim (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E3%83%96%E3%83%AD%E3%82%B0/" title="ブログ">ブログ (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E3%83%A1%E3%83%A2/" title="メモ">メモ (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/" title="リモートワーク">リモートワーク (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%83%8D%E3%81%8D%E6%96%B9/" title="働き方">働き方 (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%83%8D%E3%81%8D%E6%96%B9/" title="働き方">働き方 (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8B%89%E5%BC%B7/" title="勉強">勉強 (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/" title="可視化">可視化 (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%AD%90%E8%82%B2%E3%81%A6/" title="子育て">子育て (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%AD%90%E8%82%B2%E3%81%A6%E7%94%A8%E5%93%81/" title="子育て用品">子育て用品 (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E6%83%85%E5%A0%B1%E6%95%B4%E7%90%86/" title="情報整理">情報整理 (1)</a>
