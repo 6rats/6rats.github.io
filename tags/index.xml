@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 02 Oct 2020 09:45:04 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jan 2021 06:52:42 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>swift</title>
+      <link>https://6rats.github.io/tags/swift/</link>
+      <pubDate>Tue, 19 Jan 2021 06:52:42 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/swift/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Xcode</title>
@@ -62,15 +71,6 @@
       <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
       
       <guid>https://6rats.github.io/tags/propertywrapper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift</title>
-      <link>https://6rats.github.io/tags/swift/</link>
-      <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/swift/</guid>
       <description></description>
     </item>
     

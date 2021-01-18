@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 02 Oct 2020 09:45:04 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jan 2021 06:52:42 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>自動で使えるmemberwise initializerのアクセス装飾はinternal</title>
+      <link>https://6rats.github.io/post/memberwise_initializer/</link>
+      <pubDate>Tue, 19 Jan 2021 06:52:42 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/post/memberwise_initializer/</guid>
+      <description>struct Test { let title: String let volume: Int } structを使っていると自動でメンバー変数に値を設定するイニシャライザが使える（memberwise initializerというらしい)
+コンパイルの過程であるAST（Abstract Syntax Tree)を見てみると
+swiftc -print-ast Test.swift
+internal struct Test { internal let title: String internal let volume: Int internal init(title: String, volume: Int) } このmemberwise initializerはinternalとして定義されることがわかる 別のtargetにあるstructを使う際には注意する</description>
+    </item>
     
     <item>
       <title>Xcodeでビルドに費やしてる時間を可視化する</title>
