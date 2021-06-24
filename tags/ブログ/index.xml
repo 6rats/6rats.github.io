@@ -6,31 +6,10 @@
     <description>Recent content in ブログ on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 09 Sep 2020 15:13:42 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 09:32:52 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>方針転換</title>
-      <link>https://6rats.github.io/post/07/</link>
-      <pubDate>Wed, 09 Sep 2020 15:13:42 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/07/</guid>
-      <description>数ヶ月前のPOSTではコード的なメモはgistにこのブログではそれ以外のことを&amp;hellip;と言っていましたが&amp;hellip;
- 自分で振り返りやすい形でまとめられること コンテンツのポータビリティ どうせgist以外にも自分でメモ帳にある程度振り返れるようにまとめてる  以上の観点からこのブログでも時々コード的なメモをPOSTするように方針転換
-自分へのメモでも誰かの何かの役に立てればこれ幸い</description>
-    </item>
-    
-    <item>
-      <title>HUGO</title>
-      <link>https://6rats.github.io/post/hugo/</link>
-      <pubDate>Wed, 09 Sep 2020 14:42:11 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/hugo/</guid>
-      <description>オフィシャルのドキュメントはこちら
-新しいエントリを追加 hugo new post/new_entry.md サーバの起動 hugo server </description>
-    </item>
     
     <item>
       <title>再開</title>

@@ -6,21 +6,10 @@
     <description>Recent content in 働き方 on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 02 Oct 2020 09:45:04 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 06:30:34 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/tags/%E5%83%8D%E3%81%8D%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Xcodeでビルドに費やしてる時間を可視化する</title>
-      <link>https://6rats.github.io/post/xcode_build_times/</link>
-      <pubDate>Fri, 02 Oct 2020 09:45:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/xcode_build_times/</guid>
-      <description>Installation brew cask install bitbar mkdir ~/BitBarPlugins cd ~/BitBarPlugins curl https://raw.githubusercontent.com/matopeto/xcode-build-times/master/sources/xcodeBuildTimes.1m.php --output xcodeBuildTimes.1m.php chmod +x xcodeBuildTimes.1m.php Bitbarのpluginフォルダを~/BitBarPluginsに設定する
-Xcode Preference Behaviors → Edit Behaviors → Build → Starts,Succeeds,Failsの「Run」にxcodeBuildTimes.1m.phpを指定する
-Reference https://github.com/matopeto/xcode-build-times</description>
-    </item>
     
     <item>
       <title>リモートワークで気をつけていること</title>

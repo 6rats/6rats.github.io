@@ -6,106 +6,10 @@
     <description>Recent content in Posts on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 Jan 2021 06:52:42 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 09:29:52 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>自動で使えるmemberwise initializerのアクセス装飾はinternal</title>
-      <link>https://6rats.github.io/post/memberwise_initializer/</link>
-      <pubDate>Tue, 19 Jan 2021 06:52:42 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/memberwise_initializer/</guid>
-      <description>struct Test { let title: String let volume: Int } structを使っていると自動でメンバー変数に値を設定するイニシャライザが使える（memberwise initializerというらしい)
-コンパイルの過程であるAST（Abstract Syntax Tree)を見てみると
-swiftc -print-ast Test.swift
-internal struct Test { internal let title: String internal let volume: Int internal init(title: String, volume: Int) } このmemberwise initializerはinternalとして定義されることがわかる 別のtargetにあるstructを使う際には注意する</description>
-    </item>
-    
-    <item>
-      <title>Xcodeでビルドに費やしてる時間を可視化する</title>
-      <link>https://6rats.github.io/post/xcode_build_times/</link>
-      <pubDate>Fri, 02 Oct 2020 09:45:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/xcode_build_times/</guid>
-      <description>Installation brew cask install bitbar mkdir ~/BitBarPlugins cd ~/BitBarPlugins curl https://raw.githubusercontent.com/matopeto/xcode-build-times/master/sources/xcodeBuildTimes.1m.php --output xcodeBuildTimes.1m.php chmod +x xcodeBuildTimes.1m.php Bitbarのpluginフォルダを~/BitBarPluginsに設定する
-Xcode Preference Behaviors → Edit Behaviors → Build → Starts,Succeeds,Failsの「Run」にxcodeBuildTimes.1m.phpを指定する
-Reference https://github.com/matopeto/xcode-build-times</description>
-    </item>
-    
-    <item>
-      <title>XVimのInstall</title>
-      <link>https://6rats.github.io/post/install_xvim/</link>
-      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/install_xvim/</guid>
-      <description>(入っていれば)古いのを削除 rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XVim2.xcplugin codesign https://github.com/XVimProject/XVim2/blob/master/SIGNING_Xcode.md
-Keychainでの作業をやっているのであれば大抵下記のコマンド実行だけ
-sudo codesign -f -s XcodeSigner /Applications/Xcode.app clone &amp;amp; make git clone git@github.com:XVimProject/XVim2.git XVim2 cd XVim2 make Xcode起動  パスワード聞かれるから入力 Load bundleを選択  </description>
-    </item>
-    
-    <item>
-      <title>PropertyWrappersの基本</title>
-      <link>https://6rats.github.io/post/swift_propertywrapper/</link>
-      <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/swift_propertywrapper/</guid>
-      <description>Swiftの公式ドキュメント の抜粋
-@propertyWrapper struct TwelveOrLess { private var number: Int init() { self.number = 0 } var wrappedValue: Int { get { return number } set { number = min(newValue, 12) } } } struct SmallRectangle { @TwelveOrLess var height: Int @TwelveOrLess var width: Int } var rectangle = SmallRectangle() rectangle.height = 10 print(rectangle.height) rectangle.height = 30 print(rectangle.height) PropertyWrapper(@TwelveOrLess)を使わないでSmallRectangleを定義しないとなると下記
-struct SmallRectangle { private var _height = TwelveOrLess() private var _width = TwelveOrLess() var height: Int { get { return _height.</description>
-    </item>
-    
-    <item>
-      <title>ObservableObjectと@Published</title>
-      <link>https://6rats.github.io/post/swift_observableobject/</link>
-      <pubDate>Fri, 11 Sep 2020 09:36:01 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/swift_observableobject/</guid>
-      <description>import SwiftUI import Combine class Contact: ObservableObject { var name: String @Published var age: Int init(name: String, age: Int) { self.name = name self.age = age } func haveBirthday() -&amp;gt; Int { age += 1 return age } func changeName() { name = &amp;quot;Changed!&amp;quot; } } let john = Contact(name: &amp;quot;MyName&amp;quot;, age: 10) var cancellable = john.objectWillChange .sink { _ in print(john.age) print(john.name) } john.haveBirthday() john.changeName()  ageは@PublishedになっているのでobjectWillChangeは流れてくる nameは@PublishedつけてないのでobjectWillChangeは流れない  </description>
-    </item>
-    
-    <item>
-      <title>Bindingを持つViewにinitを実装するとき</title>
-      <link>https://6rats.github.io/post/swiftui_binding_constructor/</link>
-      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/swiftui_binding_constructor/</guid>
-      <description>ViewにBindingがあるときコンストラクタで何もしないのであれば基本的にはいい感じのinitが用意されるが、インスタンス化のタイミングで何かしたい場合はひと工夫必要
-コンストラクタでBinding&amp;lt;&amp;gt;で受け取って_をつけてで代入するらしい PropertyWrappersの基本 参照
-struct LoginView: View { @Binding var showingLogin:Bool init(showingLogin: Binding&amp;lt;Bool&amp;gt;) { self._showingLogin = showingLogin //do something } } </description>
-    </item>
-    
-    <item>
-      <title>方針転換</title>
-      <link>https://6rats.github.io/post/07/</link>
-      <pubDate>Wed, 09 Sep 2020 15:13:42 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/07/</guid>
-      <description>数ヶ月前のPOSTではコード的なメモはgistにこのブログではそれ以外のことを&amp;hellip;と言っていましたが&amp;hellip;
- 自分で振り返りやすい形でまとめられること コンテンツのポータビリティ どうせgist以外にも自分でメモ帳にある程度振り返れるようにまとめてる  以上の観点からこのブログでも時々コード的なメモをPOSTするように方針転換
-自分へのメモでも誰かの何かの役に立てればこれ幸い</description>
-    </item>
-    
-    <item>
-      <title>Spacer</title>
-      <link>https://6rats.github.io/post/swiftui_spacer/</link>
-      <pubDate>Wed, 09 Sep 2020 14:42:40 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/swiftui_spacer/</guid>
-      <description>固定サイズの空白を作る Spacer().frame(height: 40) Viewを寄せる HStack { Text(&amp;quot;左に寄る&amp;quot;) Spacer() } 上下の場合はVStackでやれる。とりあえず寄るけどもっとマシな方法ありそう。
-Spacerを使うときの極めてふわっとした感覚的なイメージ そこに置くと自分のスペースをできる限り広く確保しようとする、そんな挙動をする</description>
-    </item>
-    
-    <item>
-      <title>HUGO</title>
-      <link>https://6rats.github.io/post/hugo/</link>
-      <pubDate>Wed, 09 Sep 2020 14:42:11 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/hugo/</guid>
-      <description>オフィシャルのドキュメントはこちら
-新しいエントリを追加 hugo new post/new_entry.md サーバの起動 hugo server </description>
-    </item>
     
     <item>
       <title>No More Google?</title>
@@ -132,48 +36,6 @@ Google Takeoutで音楽を含めGoogleに預けてあるデータをすべてエ
 あとはApple MusicかSpotifyかもしくは他のサービス（AWAとかLINE Musicとか）試していく感じ。
 (2020/10/16 追記) いろいろ試してみた結果Amazon Music Unlimitedに落ち着きそう
 Google Photo iCloud Photoに置き換え 数年にわたってGoogle Photoに上げ続けてきたので、大変だろうと思いつつやってみた。</description>
-    </item>
-    
-    <item>
-      <title>日本人の勝算―人口減少×高齢化×資本主義</title>
-      <link>https://6rats.github.io/post/05/</link>
-      <pubDate>Wed, 24 Jun 2020 21:16:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/05/</guid>
-      <description>読み途中だけど簡単にめも
-これからの日本の問題  人口は減っていって経済はものすごいスピードでシュリンクしていく 高齢化が加速度的に進むので人が減っていく上に消費が減る(年取るとそんなに消費しない)  解決策 生産性を上げる
- 企業を統廃合して効率を上げる(今は非生産的な中小企業が多すぎるからまとめて効率化する) 最低賃金を上げる(最低賃金のUPに対応できるように企業は効率を上げて頑張るはず、効率上げられない企業は残念ながら&amp;hellip;) 賃金が上がれば消費も回る 最低賃金の管轄が経済産業省ではなく厚生労働省なのも問題、社会政策としてではなく経済政策とすべき 輸出をするべき(それにはある程度の企業規模が必要なのでなおさら企業は統合を進めて規模を大きくすべき)  個人的に思ったこと 労働力を搾取するような企業では働かないことも重要なのかも。賃金を上げろと言ってもなかなか会社は動かないから自ら動くのもいいのかもと思う。
- </description>
-    </item>
-    
-    <item>
-      <title>子育て関連で買ってよかったもの</title>
-      <link>https://6rats.github.io/post/04/</link>
-      <pubDate>Thu, 30 Apr 2020 22:55:12 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/04/</guid>
-      <description>※ 随時更新
-鼻水吸引機 鼻水垂れ流しは良くないらしい。かといって鼻はかめない。最初凄く怖がるけど慣れれば問題なし。
- くるくるチャイム よく遊ぶ。ボール以外のものを突っ込む
- Pechat(ペチャット) 家にあるぬいぐるみにつけて遊ぶ。結構喜ぶ。
-k </description>
-    </item>
-    
-    <item>
-      <title>子供に読んでいる本</title>
-      <link>https://6rats.github.io/post/03/</link>
-      <pubDate>Wed, 15 Apr 2020 06:35:15 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/post/03/</guid>
-      <description>※ 随時更新
-かえってきたへんしんトンネル 保育園でも読んでいたらしい。読み方にちょっとしたコツが必要で楽しめる
- ノラネコぐんだん カレーライス キャラクターの絵がかわいいけど、隅々まできちんと描き込まれてる印象
- ピヨピヨハッピーバースデー 同じく工藤ノリコさんの本、読むと結構聞いてくれる。ハッピーバースデー系は結構子供が好き
- トーマスのベッドタイムストーリー 寝かしつけの時の鉄板になりつつある。だいぶよく聞いてくれる
- ぶたのたね オチがいまいち掴みにくいけど、子供の心は掴んでる模様
- こんとあき 3歳ぐらいになるとちょっと複雑な本も聞いてられるようになってくる
- おおきなおおきな おいも 途中「いもらす」というくだりがあってすごく好き
- </description>
     </item>
     
     <item>

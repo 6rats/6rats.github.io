@@ -3,147 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://6rats.github.io/categories/</loc>
-    <lastmod>2021-01-19T06:52:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/</loc>
-    <lastmod>2021-01-19T06:52:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/swift/</loc>
-    <lastmod>2021-01-19T06:52:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/</loc>
-    <lastmod>2021-01-19T06:52:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/memberwise_initializer/</loc>
-    <lastmod>2021-01-19T06:52:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/categories/%E9%96%8B%E7%99%BA/</loc>
-    <lastmod>2021-01-19T06:52:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/xcode/</loc>
-    <lastmod>2020-10-02T09:45:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/xcode_build_times/</loc>
-    <lastmod>2020-10-02T09:45:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E5%83%8D%E3%81%8D%E6%96%B9/</loc>
-    <lastmod>2020-10-02T09:45:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</loc>
-    <lastmod>2020-10-02T09:45:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/ios/</loc>
-    <lastmod>2020-09-17T11:14:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/xvim/</loc>
-    <lastmod>2020-09-17T11:14:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/install_xvim/</loc>
-    <lastmod>2020-09-17T11:14:08+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/propertywrapper/</loc>
-    <lastmod>2020-09-11T09:41:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/swift_propertywrapper/</loc>
-    <lastmod>2020-09-11T09:41:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/observableobject/</loc>
-    <lastmod>2020-09-11T09:36:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/swift_observableobject/</loc>
-    <lastmod>2020-09-11T09:36:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/published/</loc>
-    <lastmod>2020-09-11T09:36:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/binding/</loc>
-    <lastmod>2020-09-10T09:43:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/swiftui_binding_constructor/</loc>
-    <lastmod>2020-09-10T09:43:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/swiftui/</loc>
-    <lastmod>2020-09-10T09:43:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
-    <lastmod>2020-09-09T15:13:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/categories/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
-    <lastmod>2020-09-09T15:13:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/07/</loc>
-    <lastmod>2020-09-09T15:13:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/swiftui_spacer/</loc>
-    <lastmod>2020-09-09T14:42:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/hugo/</loc>
-    <lastmod>2020-09-09T14:42:11+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/hugo/</loc>
-    <lastmod>2020-09-09T14:42:11+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E3%83%A1%E3%83%A2/</loc>
-    <lastmod>2020-09-09T14:42:11+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://6rats.github.io/tags/apple/</loc>
+    <lastmod>2020-09-03T09:29:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/categories/</loc>
     <lastmod>2020-09-03T09:29:52+09:00</lastmod>
   </url>
   
@@ -158,73 +23,28 @@
   </url>
   
   <url>
+    <loc>https://6rats.github.io/post/</loc>
+    <lastmod>2020-09-03T09:29:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/</loc>
+    <lastmod>2020-09-03T09:29:52+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://6rats.github.io/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</loc>
+    <lastmod>2020-09-03T09:29:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/categories/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
     <lastmod>2020-09-03T09:29:52+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://6rats.github.io/tags/%E6%95%B4%E7%90%86%E6%95%B4%E9%A0%93/</loc>
     <lastmod>2020-09-03T09:29:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E5%8B%89%E5%BC%B7/</loc>
-    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/05/</loc>
-    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E7%A4%BE%E4%BC%9A/</loc>
-    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E7%B5%8C%E6%B8%88/</loc>
-    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E8%AA%AD%E6%9B%B8/</loc>
-    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/categories/%E8%AA%AD%E6%9B%B8/</loc>
-    <lastmod>2020-06-24T21:16:04+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/categories/%E5%AD%90%E8%82%B2%E3%81%A6/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6%E7%94%A8%E5%93%81/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/04/</loc>
-    <lastmod>2020-04-30T22:55:12+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/post/03/</loc>
-    <lastmod>2020-04-15T06:35:15+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://6rats.github.io/tags/%E6%9C%AC/</loc>
-    <lastmod>2020-04-15T06:35:15+09:00</lastmod>
   </url>
   
   <url>
@@ -238,8 +58,18 @@
   </url>
   
   <url>
+    <loc>https://6rats.github.io/tags/%E5%83%8D%E3%81%8D%E6%96%B9/</loc>
+    <lastmod>2020-04-15T06:30:34+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://6rats.github.io/tags/%E6%83%85%E5%A0%B1%E6%95%B4%E7%90%86/</loc>
     <lastmod>2020-04-15T06:30:34+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
+    <lastmod>2019-11-19T09:32:52+09:00</lastmod>
   </url>
   
   <url>

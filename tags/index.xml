@@ -6,136 +6,10 @@
     <description>Recent content in Tags on Memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 Jan 2021 06:52:42 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 09:29:52 +0900</lastBuildDate>
     
 	<atom:link href="https://6rats.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>swift</title>
-      <link>https://6rats.github.io/tags/swift/</link>
-      <pubDate>Tue, 19 Jan 2021 06:52:42 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/swift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xcode</title>
-      <link>https://6rats.github.io/tags/xcode/</link>
-      <pubDate>Fri, 02 Oct 2020 09:45:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/xcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>働き方</title>
-      <link>https://6rats.github.io/tags/%E5%83%8D%E3%81%8D%E6%96%B9/</link>
-      <pubDate>Fri, 02 Oct 2020 09:45:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E5%83%8D%E3%81%8D%E6%96%B9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>可視化</title>
-      <link>https://6rats.github.io/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</link>
-      <pubDate>Fri, 02 Oct 2020 09:45:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iOS</title>
-      <link>https://6rats.github.io/tags/ios/</link>
-      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>XVim</title>
-      <link>https://6rats.github.io/tags/xvim/</link>
-      <pubDate>Thu, 17 Sep 2020 11:14:08 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/xvim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PropertyWrapper</title>
-      <link>https://6rats.github.io/tags/propertywrapper/</link>
-      <pubDate>Fri, 11 Sep 2020 09:41:29 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/propertywrapper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ObservableObject</title>
-      <link>https://6rats.github.io/tags/observableobject/</link>
-      <pubDate>Fri, 11 Sep 2020 09:36:01 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/observableobject/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Published</title>
-      <link>https://6rats.github.io/tags/published/</link>
-      <pubDate>Fri, 11 Sep 2020 09:36:01 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/published/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Binding</title>
-      <link>https://6rats.github.io/tags/binding/</link>
-      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/binding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SwiftUI</title>
-      <link>https://6rats.github.io/tags/swiftui/</link>
-      <pubDate>Thu, 10 Sep 2020 09:43:55 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/swiftui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ブログ</title>
-      <link>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
-      <pubDate>Wed, 09 Sep 2020 15:13:42 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HUGO</title>
-      <link>https://6rats.github.io/tags/hugo/</link>
-      <pubDate>Wed, 09 Sep 2020 14:42:11 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>メモ</title>
-      <link>https://6rats.github.io/tags/%E3%83%A1%E3%83%A2/</link>
-      <pubDate>Wed, 09 Sep 2020 14:42:11 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E3%83%A1%E3%83%A2/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Apple</title>
@@ -174,69 +48,6 @@
     </item>
     
     <item>
-      <title>勉強</title>
-      <link>https://6rats.github.io/tags/%E5%8B%89%E5%BC%B7/</link>
-      <pubDate>Wed, 24 Jun 2020 21:16:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E5%8B%89%E5%BC%B7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>社会</title>
-      <link>https://6rats.github.io/tags/%E7%A4%BE%E4%BC%9A/</link>
-      <pubDate>Wed, 24 Jun 2020 21:16:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E7%A4%BE%E4%BC%9A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>経済</title>
-      <link>https://6rats.github.io/tags/%E7%B5%8C%E6%B8%88/</link>
-      <pubDate>Wed, 24 Jun 2020 21:16:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E7%B5%8C%E6%B8%88/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>読書</title>
-      <link>https://6rats.github.io/tags/%E8%AA%AD%E6%9B%B8/</link>
-      <pubDate>Wed, 24 Jun 2020 21:16:04 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E8%AA%AD%E6%9B%B8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>子育て</title>
-      <link>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6/</link>
-      <pubDate>Thu, 30 Apr 2020 22:55:12 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>子育て用品</title>
-      <link>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6%E7%94%A8%E5%93%81/</link>
-      <pubDate>Thu, 30 Apr 2020 22:55:12 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E5%AD%90%E8%82%B2%E3%81%A6%E7%94%A8%E5%93%81/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>本</title>
-      <link>https://6rats.github.io/tags/%E6%9C%AC/</link>
-      <pubDate>Wed, 15 Apr 2020 06:35:15 +0900</pubDate>
-      
-      <guid>https://6rats.github.io/tags/%E6%9C%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>リモートワーク</title>
       <link>https://6rats.github.io/tags/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</link>
       <pubDate>Wed, 15 Apr 2020 06:30:34 +0900</pubDate>
@@ -246,11 +57,29 @@
     </item>
     
     <item>
+      <title>働き方</title>
+      <link>https://6rats.github.io/tags/%E5%83%8D%E3%81%8D%E6%96%B9/</link>
+      <pubDate>Wed, 15 Apr 2020 06:30:34 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/%E5%83%8D%E3%81%8D%E6%96%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>情報整理</title>
       <link>https://6rats.github.io/tags/%E6%83%85%E5%A0%B1%E6%95%B4%E7%90%86/</link>
       <pubDate>Wed, 15 Apr 2020 06:30:34 +0900</pubDate>
       
       <guid>https://6rats.github.io/tags/%E6%83%85%E5%A0%B1%E6%95%B4%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ブログ</title>
+      <link>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Tue, 19 Nov 2019 09:32:52 +0900</pubDate>
+      
+      <guid>https://6rats.github.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
       <description></description>
     </item>
     
